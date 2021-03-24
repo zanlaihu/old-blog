@@ -1,12 +1,8 @@
 # 胡赞來的个人博客
 
-在Issues里写博客真的很方便。
+## 2021计划
+1. 读完JavaScript红宝书
 
-## 计划
-2/15/2020开始 学习JavaScript红宝书
-
-已完成 学习JavaScript红宝书（一）——什么是JavaScript
-
-## 知乎专栏
-可访问知乎专栏来查看分门别类的文章。
-https://www.zhihu.com/people/gu-yue-xian-xian-bei/columns
+## 掘金
+文章在掘金也同步更新，排版更好看。
+https://juejin.cn/user/4432874423729591/posts
