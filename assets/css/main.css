@@ -2776,7 +2776,8 @@ ul.actions.special {
     top: 0;
     width: 275px;
     z-index: 10002;
-    background: #242730;
+    /* background: #242730; */
+    background: #212735;
     box-shadow: inset -3px 0px 4px 0px rgba(0, 0, 0, 0.1);
   }
 
