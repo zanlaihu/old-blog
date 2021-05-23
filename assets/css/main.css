@@ -2080,7 +2080,6 @@ ul.actions.special {
   left: -35px;
   width: 35px;
   height: 38px;
-  
 }
 
 .wrapper .title:after {
@@ -2094,7 +2093,6 @@ ul.actions.special {
   right: -35px;
   width: 35px;
   height: 38px;
-  
 }
 
 .wrapper.style1 {
@@ -2380,10 +2378,9 @@ ul.actions.special {
 /* Footer */
 
 #footer {
-  background: #282b34;
+  background: #000000;
   color: #eee;
   color: rgba(255, 255, 255, 0.5);
-  padding-bottom: 6em;
 }
 
 #footer h1,
@@ -2460,7 +2457,6 @@ ul.actions.special {
 }
 
 #footer header.style1 {
-  padding-bottom: 6em;
   margin-bottom: 6em;
   border-bottom: solid 1px rgba(255, 255, 255, 0.05);
 }
@@ -2585,12 +2581,7 @@ ul.actions.special {
 
   /* Footer */
 
-  #footer {
-    padding-bottom: 4em;
-  }
-
   #footer header.style1 {
-    padding-bottom: 4em;
     margin-bottom: 4em;
     border-bottom: solid 1px rgba(255, 255, 255, 0.05);
   }
@@ -3065,12 +3056,7 @@ ul.actions.special {
 
   /* Footer */
 
-  #footer {
-    padding-bottom: 0;
-  }
-
   #footer header.style1 {
-    padding-bottom: 0;
     margin-bottom: 2em;
     border-bottom: 0;
   }
