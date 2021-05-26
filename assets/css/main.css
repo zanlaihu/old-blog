@@ -286,7 +286,7 @@ form {
 .container {
   margin: 0 auto;
   max-width: 100%;
-  width: 68em;
+  width: 0em;
 }
 
 @media screen and (max-width: 1680px) {
@@ -1544,7 +1544,6 @@ article:last-child {
 
 header.style1 {
   text-align: center;
-  padding: 3em 0 3em 0;
 }
 
 header.style1 h2 {
@@ -2004,42 +2003,6 @@ ul.actions.special {
   font-family: "Font Awesome 5 Brands";
 }
 
-/* Box */
-
-.box header {
-  margin: 0 0 1.5em 0;
-}
-
-.box header.style1 {
-  position: relative;
-  margin: -0.5em 0 0 0;
-  padding-top: 0;
-}
-
-.box h2 {
-  margin: 0 0 0.75em 0;
-  font-size: 1.15em;
-  letter-spacing: 0.05em;
-}
-
-.box h3 {
-  margin: 0 0 0.5em 0;
-  font-size: 1em;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-}
-
-.box.post-excerpt .image.left {
-  position: relative;
-  top: 0.5em;
-  width: 5em;
-}
-
-.box.post-excerpt h3,
-.box.post-excerpt p {
-  margin-left: 7em;
-}
-
 /* Wrapper */
 
 .wrapper {
@@ -2157,7 +2120,7 @@ ul.actions.special {
 
 #header:before {
   content: "";
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -2165,7 +2128,7 @@ ul.actions.special {
 }
 
 .homepage #header {
-  height: 20em;
+  height: 5em;
 }
 
 /* Logo */
@@ -2200,8 +2163,6 @@ ul.actions.special {
 #nav {
   position: absolute;
   display: block;
-  top: 2.5em;
-  left: 0;
   width: 100%;
   text-align: center;
 }
@@ -2670,7 +2631,6 @@ ul.actions.special {
     -webkit-transition: -webkit-transform 0.5s ease;
     -ms-transition: -ms-transform 0.5s ease;
     transition: transform 0.5s ease;
-    padding-bottom: 1px;
   }
 
   #titleBar {
@@ -2979,7 +2939,7 @@ ul.actions.special {
   }
 
   .homepage #header {
-    height: 20em;
+    height: 5em;
   }
 
   /* Logo */

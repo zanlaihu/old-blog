@@ -1,2 +1,11 @@
+.news{
+    background-color: #ffec3d;
+    width: 100%;
+}
 
-
+.navigation{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 20000;
+}
