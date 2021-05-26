@@ -2133,12 +2133,6 @@ ul.actions.special {
   border: solid 10px #fff;
 }
 
-/* Page Wrapper */
-
-#page-wrapper > section {
-  margin-bottom: 0;
-}
-
 /* Header */
 
 #header {
@@ -2667,6 +2661,7 @@ ul.actions.special {
   /* Nav */
 
   #page-wrapper {
+    /* 隐藏元素 */
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
