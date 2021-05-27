@@ -198,6 +198,8 @@ select {
   font-size: 14pt;
   line-height: 1.75em;
   letter-spacing: 0.025em;
+  font-family: Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
 }
 
 h1,
@@ -225,8 +227,8 @@ a {
   -webkit-transition: color 0.25s ease-in-out;
   -ms-transition: color 0.25s ease-in-out;
   transition: color 0.25s ease-in-out;
-  text-decoration: underline;
-  color: #717479;
+  text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
