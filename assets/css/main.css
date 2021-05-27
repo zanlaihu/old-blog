@@ -3,6 +3,7 @@
 @import url("icon.css");
 @import url("feature-list.css");
 @import url("news.css");
+@import url("logo.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
 
 html,
@@ -1977,33 +1978,6 @@ ul.actions.special {
   border: solid 10px #fff;
 }
 
-/* Logo */
-
-#logo {
-  width: 100%;
-  text-align: center;
-  position: relative;
-  top: 1.5em;
-}
-
-#logo h1 {
-  font-weight: 900;
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 2em;
-  letter-spacing: 0.25em;
-}
-
-#logo p {
-  color: #eee;
-  color: rgba(255, 255, 255, 0.5);
-  text-transform: uppercase;
-  margin: 1.25em 0 0 0;
-  display: block;
-  letter-spacing: 0.2em;
-  font-size: 0.9em;
-}
-
 /* Intro */
 
 #intro {
@@ -2233,16 +2207,6 @@ ul.actions.special {
     padding: 4em 0 7em 0;
   }
 
-  /* Logo */
-
-  #logo {
-    margin-top: -0.5em !important;
-  }
-
-  #logo h1 {
-    font-size: 1.75em;
-  }
-
   /* Intro */
 
   #intro {
@@ -2295,12 +2259,6 @@ ul.actions.special {
   .feature-list > .row > :first-child > section {
     border-top: 0;
     padding-top: 0;
-  }
-
-  /* Logo */
-
-  #logo {
-    top: 0;
   }
 
   /* Intro */
@@ -2548,26 +2506,6 @@ ul.actions.special {
     height: 15px;
     bottom: -15px;
     background-size: 100% 100%;
-  }
-
-  /* Logo */
-
-  #logo {
-    text-align: center;
-    padding-left: 2em;
-    padding-right: 2em;
-  }
-
-  #logo h1 {
-    font-size: 1.5em;
-    letter-spacing: 0.2em;
-  }
-
-  #logo p {
-    margin: 1.25em 0 0 0;
-    display: block;
-    letter-spacing: 0.2em;
-    font-size: 0.9em;
   }
 
   /* Intro */

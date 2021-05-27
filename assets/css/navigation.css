@@ -1,6 +1,9 @@
 .navigation {
+  padding: 0px 20px;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
   z-index: 20000;
+  background-color: #2f54eb;
+  height: auto;
 }
