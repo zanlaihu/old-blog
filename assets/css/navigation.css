@@ -1,19 +1,18 @@
 /* navigation */
 .navigation {
-  padding: 0px 20px;
+  padding: 0px 50px;
   position: sticky;
   position: -webkit-sticky; /* Safari */
   top: 0;
   z-index: 20000;
-  background-image: linear-gradient(to right, #21afd0, #6052cc);
-  /* background-color: #2f54eb; */
   height: 64px;
+  background-image: linear-gradient(to right, #21afd0, #6052cc);
 }
 
 .navigation-choice {
   height: 64px;
-  width: 470px;
   line-height: 64px;
+  width: 470px;
   color: #ffffff;
   font-size: 13px;
   float: right;
@@ -21,9 +20,7 @@
 
 .choice {
   margin-left: 25px;
-  width: auto;
   float: left;
-  color: #ffffff;
 }
 
 .choice:hover {
