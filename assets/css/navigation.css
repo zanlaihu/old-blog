@@ -23,8 +23,22 @@
   color: #ffffff;
 }
 
+.choice:hover {
+  height: 60px;
+  line-height: 60px;
+  border-top: 2px solid #ffffff;
+  padding-top: -2px;
+}
+
+.choice-focused {
+  height: 60px;
+  line-height: 60px;
+  border-top: 2px solid #ffffff;
+  padding-top: -2px;
+}
+
 .github {
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   border-radius: 28px;
   height: 30px;
   line-height: 30px;
