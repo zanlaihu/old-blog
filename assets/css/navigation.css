@@ -5,12 +5,14 @@
   position: -webkit-sticky; /* Safari */
   top: 0;
   z-index: 20000;
-  background-color: #2f54eb;
+  background-image: linear-gradient(to right, #21afd0, #6052cc);
+  /* background-color: #2f54eb; */
   height: 64px;
 }
 
 .navigation-choice {
   height: 64px;
+  width: 470px;
   line-height: 64px;
   color: #ffffff;
   font-size: 13px;
