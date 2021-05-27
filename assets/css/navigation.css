@@ -1,3 +1,11 @@
+/* 顶端的warmmings */
+.news {
+  padding: 0px 50px;
+  background-color: #ffec3d;
+  width: 100%;
+  font-size: xx-small;
+}
+
 /* navigation */
 .navigation {
   padding: 0px 50px;
