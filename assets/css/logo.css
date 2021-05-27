@@ -2,5 +2,10 @@
   height: 64px;
   line-height: 64px;
   color: #ffffff;
-  font-size: large;
+  font-size: 27px;
+  float: left;
+}
+
+.logo1 {
+  margin-right: 10px;
 }
