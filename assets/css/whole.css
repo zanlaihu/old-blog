@@ -1,7 +1,14 @@
 .whole {
   padding-right: 10px;
   padding-left: 10px;
-  height: 1000px;
+  height: 200px;
   width: 100%;
-  background-color: #000000;
+  background-color: #ffffff;
+}
+
+.home-ins {
+  position: relative;
+  bottom: 64px;
+  height: 700px;
+  background-image: linear-gradient(to right bottom, #21afd0, #6052cc);
 }

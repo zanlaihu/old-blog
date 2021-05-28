@@ -1,20 +1,59 @@
 /* 顶端的warmmings */
 .news {
-  padding: 0px 50px;
-  background-color: #ffec3d;
+  padding: 0 20px;
+  background-image: linear-gradient(to right, #e77224, #dfda44);
+  color: #ffffff;
   width: 100%;
   font-size: xx-small;
+  height: 15px;
+  line-height: 15px;
+}
+
+.news-text {
+  width: 1200px;
+  margin: auto;
+}
+
+.profile {
+  float: left;
+}
+
+.profile-pic {
+  margin: auto;
+  margin: 4.5px 10px 0 5px;
+  width: 55px;
+  height: 55px;
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+  background: url("../img/astro.svg") no-repeat center center;
+}
+
+.logo {
+  margin-top: 7px;
+  height: 50px;
+  line-height: 25px;
+  color: #ffffff;
+  font-size: 20px;
+  float: left;
+}
+
+.logo1 {
+  margin-right: 5px;
 }
 
 /* navigation */
 .navigation {
-  padding: 0px 50px;
   position: sticky;
   position: -webkit-sticky; /* Safari */
   top: 0;
   z-index: 20000;
   height: 64px;
-  background-image: linear-gradient(to right, #21afd0, #6052cc);
+  /* background-image: linear-gradient(to right, #21afd0, #6052cc); */
+}
+
+.navigation-content {
+  margin: auto;
+  width: 1200px;
 }
 
 .navigation-choice {
