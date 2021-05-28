@@ -10,7 +10,7 @@
 }
 
 .news-text {
-  width: 1200px;
+  width: 70%;
   margin: auto;
 }
 
@@ -43,6 +43,7 @@
 
 /* navigation */
 .navigation {
+  padding: 0 10px;
   position: sticky;
   position: -webkit-sticky; /* Safari */
   top: 0;
@@ -53,7 +54,7 @@
 
 .navigation-content {
   margin: auto;
-  width: 1200px;
+  width: 70%;
 }
 
 .navigation-choice {
