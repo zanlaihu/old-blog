@@ -224,19 +224,26 @@ h6 a {
 }
 
 a {
-  -moz-transition: color 0.25s ease-in-out;
-  -webkit-transition: color 0.25s ease-in-out;
-  -ms-transition: color 0.25s ease-in-out;
-  transition: color 0.25s ease-in-out;
   text-decoration: none;
-  color: inherit;
+  color: #ffffff;
+}
+/* a:link {
+  text-decoration: none;
 }
 
 a:hover {
   text-decoration: none;
+}*/
+
+a:active {
+  text-decoration: none;
 }
 
-strong,
+a:visited {
+  text-decoration: none;
+}
+
+a strong,
 b {
   font-weight: 700;
   color: #484d55;
