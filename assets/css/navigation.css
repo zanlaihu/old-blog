@@ -1,7 +1,7 @@
 /* 顶端的warmmings */
 .news {
   padding: 0 20px;
-  background-image: linear-gradient(to right, #e77224, #dfda44);
+  background-image: linear-gradient(to right, rgb(222,120,252,1), rgb(126,69,255,1));
   color: #ffffff;
   width: 100%;
   font-size: xx-small;
