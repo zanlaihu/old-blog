@@ -1,7 +1,11 @@
 /* 顶端的warmmings */
 .news {
   padding: 0 20px;
-  background-image: linear-gradient(to right, rgb(222,120,252,1), rgb(126,69,255,1));
+  background-image: linear-gradient(
+    to right,
+    rgb(222, 120, 252, 1),
+    rgb(126, 69, 255, 1)
+  );
   color: #ffffff;
   width: 100%;
   font-size: xx-small;
@@ -18,10 +22,12 @@
 }
 
 .profile-pic {
-  margin: auto;
-  margin: 4.5px 10px 0 5px;
-  width: 55px;
-  height: 55px;
+  margin-left: 25px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 44px;
+  height: 44px;
   border: 1px solid #ffffff;
   border-radius: 100%;
   background: url("../img/astro.svg") no-repeat center center;
@@ -48,7 +54,6 @@
   top: 0;
   z-index: 20000;
   height: 64px;
-  /* background-image: linear-gradient(to right, #21afd0, #6052cc); */
 }
 
 .navigation-content {
@@ -92,6 +97,5 @@
   padding: 0 10px;
   float: left;
   height: 30px;
-  line-height: 30px;
   background: url("../img/GitHub.svg") no-repeat center center;
 }
