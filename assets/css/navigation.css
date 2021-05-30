@@ -22,7 +22,6 @@
 }
 
 .profile-pic {
-  margin-left: 25px;
   margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -99,3 +98,4 @@
   height: 30px;
   background: url("../img/GitHub.svg") no-repeat center center;
 }
+
