@@ -89,11 +89,9 @@
   margin-left: 25px;
   margin-top: 17px;
   margin-bottom: 17px;
-  padding: 0 5px;
+  padding: 0 10px;
   float: left;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 28px;
   height: 30px;
   line-height: 30px;
+  background: url("../img/GitHub.svg") no-repeat center center;
 }
