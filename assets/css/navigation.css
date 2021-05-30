@@ -57,6 +57,7 @@
 }
 
 .navigation-unhome {
+  background: rgb(33, 175, 208, 1);
   background: linear-gradient(
     -45deg,
     rgba(130, 29, 200, 1) 0%,
