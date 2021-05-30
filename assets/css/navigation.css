@@ -56,6 +56,14 @@
   height: 64px;
 }
 
+.navigation-unhome {
+  background: linear-gradient(
+    -45deg,
+    rgba(130, 29, 200, 1) 0%,
+    rgb(33, 175, 208, 1) 100%
+  );
+}
+
 .navigation-content {
   margin: auto;
   width: 70%;
@@ -99,7 +107,7 @@
   background: url("../img/GitHub.svg") no-repeat center center;
 }
 
-@media screen and (min-width: 0px) and (max-width:1450px){
+@media screen and (min-width: 0px) and (max-width: 1450px) {
   .news-text {
     width: 90%;
   }
