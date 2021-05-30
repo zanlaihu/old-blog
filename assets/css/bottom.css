@@ -45,6 +45,10 @@
   border: 0.3px solid rgb(58, 58, 58);
 }
 
+.unhome-padding{
+  padding: 64px;
+}
+
 @media screen and (min-width: 0px) and (max-width:1450px){
   .bottom-contact {
     width: 90%;
