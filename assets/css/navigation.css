@@ -8,7 +8,7 @@
   );
   color: #ffffff;
   width: 100%;
-  font-size: xx-small;
+  font-size: x-small;
   height: auto;
 }
 
@@ -17,6 +17,7 @@
   margin: auto;
 }
 
+/* 头像 */
 .profile {
   float: left;
 }
@@ -32,6 +33,7 @@
   background: url("../img/astro.svg") no-repeat center center;
 }
 
+/* 名字 */
 .logo {
   margin-top: 7px;
   height: 50px;
@@ -47,7 +49,6 @@
 
 /* navigation */
 .navigation {
-  padding: 0 10px;
   position: sticky;
   position: -webkit-sticky; /* Safari */
   top: 0;
@@ -61,10 +62,9 @@
 }
 
 .navigation-choice {
+  width: 450px;
   height: 64px;
   line-height: 64px;
-  width: 470px;
-  color: #ffffff;
   font-size: 13px;
   float: right;
 }
@@ -99,3 +99,12 @@
   background: url("../img/GitHub.svg") no-repeat center center;
 }
 
+@media screen and (min-width: 0px) and (max-width:1450px){
+  .news-text {
+    width: 90%;
+  }
+
+  .navigation-content {
+    width: 90%;
+  }
+}
