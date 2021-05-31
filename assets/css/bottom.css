@@ -1,5 +1,5 @@
 .bottom {
-  background-color: #000000;
+  /* background-color: #000000; */
   height: 270px;
   width: 100%;
   z-index: -1;
@@ -21,7 +21,7 @@
 
 .contact-title{
   height: 20px;
-  color: #dadada;
+  color: rgb(97, 97, 97);
 }
 
 .contact-message{
@@ -42,7 +42,7 @@
 .bottom-line{
   margin:auto;
   width: 70%;
-  border: 0.3px solid rgb(58, 58, 58);
+  border: 0.3px solid #dadada;
 }
 
 .unhome-padding{

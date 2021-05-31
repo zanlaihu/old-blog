@@ -35,9 +35,9 @@
 
 /* 名字 */
 .logo {
-  margin-top: 7px;
-  height: 50px;
-  line-height: 25px;
+  margin-top: 10px;
+  height: 40px;
+  line-height: 20px;
   color: #ffffff;
   font-size: 20px;
   float: left;
@@ -45,6 +45,7 @@
 
 .logo1 {
   margin-right: 5px;
+  color: inherit;
 }
 
 /* navigation */
@@ -57,17 +58,15 @@
 }
 
 .navigation-unhome {
-  background: rgb(33, 175, 208, 1);
-  background: linear-gradient(
-    -45deg,
-    rgba(130, 29, 200, 1) 0%,
-    rgb(33, 175, 208, 1) 100%
-  );
+  background: #ffffff;
+  color: #262626;
+  margin-bottom: 32px;
 }
 
 .navigation-content {
   margin: auto;
   width: 70%;
+  color: inherit;
 }
 
 .navigation-choice {
@@ -90,11 +89,33 @@
   padding-top: -2px;
 }
 
+.unhome-choice{
+  margin-left: 25px;
+  float: left;
+  color: #262626;
+}
+
+.unhome-choice:hover{
+  height: 60px;
+  line-height: 60px;
+  border-top: 2px solid #40a9ff;
+  padding-top: -2px;
+  color: #40a9ff;
+}
+
 .choice-focused {
   height: 60px;
   line-height: 60px;
   border-top: 2px solid #ffffff;
   padding-top: -2px;
+}
+
+.unhome-focused {
+  padding-top: -2px;
+  height: 60px;
+  line-height: 60px;
+  border-top: 2px solid #40a9ff;
+  color: #40a9ff;
 }
 
 /* GitHub */

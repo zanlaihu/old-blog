@@ -1,7 +1,11 @@
-.sidebar{
-    position: fixed;
-    border-right: 1px solid #e0e0e0;
-    height: 100%;
-    width: 20%;
+.sidebar {
+  position: fixed;
+  border-right: 1px solid #e0e0e0;
+  height: 100%;
+  width: 20%;
+}
 
+.right-content {
+  width: 80%;
+  float: right;
 }
