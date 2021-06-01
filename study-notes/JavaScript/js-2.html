@@ -106,7 +106,7 @@
           CORS。crossorigin="use-credentials"意思是设置凭据标志，这样出站请求会包含凭据。crossorigin="anonymous"意思是配置文件请求不必设置凭据标志。</p>
 
         <h2>如何使用&lt;script&gt;</h2>
-        <p>直接在网页中嵌入，或引入外部 JavaScript 文件：</p>
+        <p>1.直接在网页中嵌入：</p>
         <pre><code>
           &lt;script&gt;
             function sayHi() {
@@ -114,6 +114,17 @@
             }
           &lt;/script&gt;
         </code></pre>
+        <p>包含在&lt;script&gt;内的代码会被从上到下解释。上面的代码解释了一个函数定义，这个函数会被保存在解释器环境中。在&lt;script&gt;内的代码被计算完成前，页面其余内容不会被加载或显示。</p>
+        <p>使用行内 JavaScript 时，代码中不能出现&lt;/script&gt。
+          比如：</p>
+        <pre><code>
+          &lt;script&gt;
+            function sayHi() {
+              console.log("&lt;/script&gt");
+            }
+          &lt;/script&gt;
+        </code></pre>
+        
       </div>
 
       <div class="bottom unhome-padding">
