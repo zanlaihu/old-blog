@@ -1,12 +1,12 @@
 @import url("navigation.css");
 @import url("icon.css");
-@import url("feature-list.css");
 @import url("logo.css");
 @import url("whole.css");
 @import url("bottom.css");
 @import url("home-ins.css");
 @import url("previous.css");
 @import url("sidebar.css");
+@import url("right-content.css");
 
 html,
 body,
