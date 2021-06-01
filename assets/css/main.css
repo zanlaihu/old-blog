@@ -8,7 +8,6 @@
 @import url("previous.css");
 @import url("sidebar.css");
 
-
 html,
 body,
 div,
@@ -229,13 +228,6 @@ a {
   text-decoration: none;
   color: #ffffff;
 }
-/* a:link {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}*/
 
 a:active {
   text-decoration: none;
@@ -297,8 +289,6 @@ blockquote,
 form {
   margin-bottom: 2em;
 }
-
-
 
 .row.gtr-uniform > * > :last-child {
   margin-bottom: 0;
@@ -1017,7 +1007,6 @@ form {
 }
 
 @media screen and (max-width: 980px) {
-
 }
 
 @media screen and (max-width: 736px) {
