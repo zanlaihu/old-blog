@@ -1,0 +1,17 @@
+.right-content {
+  width: 84%;
+  float: right;
+}
+
+.right-content h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.right-content p {
+  margin-left: 10%;
+  color: #474747;
+  font-size: 14px;
+}
