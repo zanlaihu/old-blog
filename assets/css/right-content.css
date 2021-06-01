@@ -12,12 +12,14 @@
   margin-bottom: 50px;
   text-align: center;
   font-size: xx-large;
+  color: #40a9ff;
 }
 
 .right-content h2 {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: x-large;
+  color: #40a9ff;
 }
 
 .right-content h3 {
@@ -31,4 +33,19 @@
   color: #474747;
   font-size: 14px;
   line-height: 30px;
+}
+
+.right-content pre{
+  background: #f3f3f3;
+  border-radius: 10px;
+  padding-left: -10px;
+  color: #474747;
+  font-family: monospace;
+  font-size: small;
+  line-height: 20px;
+}
+
+.right-content code{
+  position: relative;
+  left: -50px;
 }
