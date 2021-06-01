@@ -12,20 +12,28 @@
   padding-left: 25px;
   height: 45px;
   line-height: 40px;
+  font-weight: bold;
 }
 
-.know-name-focus{
-    color: #40a9ff;
+.know-name-focus {
+  color: #40a9ff;
 }
 
 .chapter {
   padding-left: 40px;
   height: 45px;
-  line-height: 35px;
-  background: rgb(250,250,250);
+  line-height: 45px;
+  background: rgb(250, 250, 250);
+  color: #474747;
 }
 
-.right-content {
-  width: 84%;
-  float: right;
+.chapter:hover {
+  color: #40a9ff;
+  background-color: rgb(230, 247, 255, 1);
+}
+
+.chapter-choosen {
+  color: #40a9ff;
+  background-color: rgb(230, 247, 255, 1);
+  border-right: 3px solid #40a9ff;
 }

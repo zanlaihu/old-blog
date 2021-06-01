@@ -1,0 +1,33 @@
+.right-content {
+  padding-left: 16%;
+}
+
+.content-content {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.right-content h1 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.right-content h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+
+.right-content h3 {
+  margin-top: 20px;
+  color: #40a9ff;
+}
+
+.right-content p {
+  margin-bottom: 5px;
+  color: #474747;
+  font-size: 14px;
+  line-height: 30px;
+}

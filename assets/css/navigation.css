@@ -10,7 +10,6 @@
   width: 100%;
   font-size: x-small;
   height: auto;
-  z-index: 30000;
 }
 
 .news-text {
@@ -92,13 +91,13 @@
   padding-top: -2px;
 }
 
-.unhome-choice{
+.unhome-choice {
   margin-left: 25px;
   float: left;
   color: #262626;
 }
 
-.unhome-choice:hover{
+.unhome-choice:hover {
   height: 60px;
   line-height: 60px;
   border-top: 2px solid #40a9ff;
