@@ -1,60 +1,60 @@
 .bottom {
   /* background-color: #000000; */
-  height: 270px;
+  height: 370px;
   width: 100%;
   z-index: -1;
   color: darkgrey;
   font-size: x-small;
 }
 
-.bottom-contact{
+.bottom-contact {
   margin: auto;
   margin-bottom: 30px;
   margin-top: 0px;
   width: 70%;
 }
 
-.home-bottom-special{
+.home-bottom-special {
   position: relative;
   bottom: 64px;
 }
 
-.contact-title{
+.contact-title {
   height: 20px;
   color: rgb(97, 97, 97);
 }
 
-.contact-message{
+.contact-message {
   height: 15px;
 }
 
-.bottom-logo{
+.bottom-logo {
   margin: auto;
   width: 44px;
 }
 
-.bottom-label{
+.bottom-label {
   margin: auto;
   width: 300px;
   text-align: center;
 }
 
-.bottom-line{
-  margin:auto;
+.bottom-line {
+  margin: auto;
   width: 70%;
   border: 0.3px solid #dadada;
 }
 
-.unhome-padding{
+.unhome-padding {
   padding: 64px;
 }
 
-@media screen and (min-width: 0px) and (max-width:1450px){
+@media screen and (min-width: 0px) and (max-width: 1450px) {
   .bottom-contact {
     width: 90%;
   }
 
-  .bottom-line{
+  .bottom-line {
     width: 90%;
   }
 }
