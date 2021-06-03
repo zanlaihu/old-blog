@@ -4,7 +4,7 @@
 }
 
 .content-content {
-  padding-left: 10%;
+  padding-left: 8%;
   padding-right: 25%;
   margin-bottom: 300px;
 }
@@ -34,7 +34,9 @@
   margin: 0px;
   color: #242424;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 28px;
+  /* 超级好用的自动换行属性 */
+  /* white-space: pre-line; */
 }
 
 .right-content pre{
