@@ -90,26 +90,55 @@
         <h1>&lt;script&gt;标签</h1>
         <p>&lt;script&gt;元素由网景公司创造，用来将 JavaScript 引入 HTML。它也被纳入 HTML 规范。</p>
         <h2>&lt;script&gt;有 8 个属性：</h2>
-        <p>
-          - src：可选。填入 URL 来引入外部文件中的 JavaScript。
-          - defer：可选。延迟运行JavaScript， 可以延迟到整个页面被解析和显示之后再运行。只对外部 JavaScript 文件有效。
-          - async：可选。异步执行，表示立刻开始下载 JavaScript，但不必等 JavaScript 下载和执行完再加载页面。只对外部 JavaScript 文件有效。
-          - language：废弃。大多数浏览器都会忽略。
-          - type：可选。替代 language，表示代码块中 JavaScript 语言的内容类型（也叫
-          MINE类型）。按照惯例，始终是“text/javascript”（尽管“text/javascript”和“text/ecmascript”已经被废弃）。JavaScript 文件的 MINE
-          类型通常是“application/x-javascript”，不过这个值有可能导致 JavaScript 被忽略。在非 IE 的浏览器中有效的 MINE
-          值还有“application/javascript”和“application/ecmascript”。如果这个值是 module，则代码会被当成 ES6 模块，代码中运行使用 import 和 export
-          关键字。
-          - integrity：可选。允许比对接收到的资源的签名与指定的加密签名以验证子资源完整性（SRI，Subresource Integrity）。如果不匹配则页面报错，JavaScript
-          不执行。这个属性可以确保内容分发网络（CDN，Content Delivery Network）不会提供恶意内容。
-          - charset：可选。使用 src 属性指定的代码字符集。大多数浏览器不在乎它的值，所以很少被使用。
-          - crossorigin：可选。配置相关请求的 CORS（跨源资源共享）设置。默认不使用
-          CORS。crossorigin="use-credentials"意思是设置凭据标志，这样出站请求会包含凭据。crossorigin="anonymous"意思是配置文件请求不必设置凭据标志。
-        </p>
-        <p>
-          与解释行内 JavaScript 一样，解释外部 JavaScript 也会让页面阻塞。阻塞也包含下载文件的时间。
-          使用外部文件以后就不应该再添加行内 JavaScript，即使加了也不会被执行。外部文件优先。
-        </p>
+        <table>
+          <tr>
+            <td style="width: 80px;">src</td>
+            <td style="width: 50px;">可选</td>
+            <td>填入 URL 来引入外部文件中的 JavaScript</td>
+          </tr>
+          <tr>
+            <td>defer</td>
+            <td>可选</td>
+            <td>延迟执行。立刻开始下载 JavaScript，延迟到整个页面被解析和显示之后再运行。只对外部 JavaScript 文件有效。</td>
+          </tr>
+          <tr>
+            <td>async</td>
+            <td>可选</td>
+            <td>异步执行。立刻开始下载 JavaScript，但不必等 JavaScript 下载和执行完再加载页面。只对外部 JavaScript 文件有效。</td>
+          </tr>
+          <tr>
+            <td>integrity</td>
+            <td>可选</td>
+            <td>允许比对接收到的资源的签名与指定的加密签名以验证子资源完整性（SRI，Subresource Integrity）。如果不匹配则页面报错，不执行JavaScript
+              。用来确保内容分发网络（CDN，Content Delivery Network）不会提供恶意内容。</td>
+          </tr>
+
+          <tr>
+            <td>charset</td>
+            <td>可选</td>
+            <td>使用 src 属性指定的代码字符集。大多数浏览器不在乎它的值，所以很少被使用。</td>
+          </tr>
+          <tr>
+            <td>crossorigin</td>
+            <td>可选</td>
+            <td>配置相关请求的 CORS（跨源资源共享）设置。默认不使用
+              CORS。crossorigin="use-credentials"意思是设置凭据标志，这样出站请求会包含凭据。crossorigin="anonymous"意思是配置文件请求不必设置凭据标志。</td>
+          </tr>
+          <tr>
+            <td>language</td>
+            <td>废弃</td>
+            <td>大多数浏览器都会忽略</td>
+          </tr>
+          <tr>
+            <td>type</td>
+            <td>可选</td>
+            <td>替代 language，但已很少被添加。表示代码块中 JavaScript 的内容类型（
+              MINE类型）。一般是“text/javascript”（尽管“text/javascript”和“text/ecmascript”已经被废弃）。JavaScript 文件的 MINE
+              类型通常是“application/x-javascript”，不过这个值有可能导致 JavaScript 被忽略。在非 IE 的浏览器中有效的 MINE
+              值还有“application/javascript”和“application/ecmascript”。如果这个值是 module，则代码会被当成 ES6 模块，代码中运行使用 import 和 export
+              关键字。</td>
+          </tr>
+        </table>
 
         <h2>如何使用&lt;script&gt;</h2>
         <h3>1.直接在网页中嵌入：</h3>

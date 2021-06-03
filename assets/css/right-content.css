@@ -39,6 +39,11 @@
   /* white-space: pre-line; */
 }
 
+.right-content table{
+  color: #242424;
+  font-size: small;
+}
+
 .right-content pre{
   /* 子元素code加了position:relative后层级错乱，需要父元素也添加position:relative并添加z-index。 */
   position: relative;
