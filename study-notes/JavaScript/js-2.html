@@ -124,6 +124,18 @@
             }
           &lt;/script&gt;
         </code></pre>
+        <p>2.引入外部 JavaScript</p>
+        <pre><code>
+          &lt;script src="example.js">&lt;/script&gt;
+        </code></pre>
+        <p>与解释行内 JavaScript 一样，解释外部 JavaScript 也会让页面阻塞。阻塞包含下载文件的时间。使用外部文件以后就不应该再添加行内 JavaScript，即使加了也不会被执行。外部文件优先。</p>
+        <p>src 可以引用来自外部域的文件，这也是它争议最大的地方:</p>
+        <pre><code>
+          &lt;script src="https://www.somewhere.com/afile.js">&lt;/script&gt;
+        </code></pre>
+        <p>如果来自外部域，浏览器会向这个路径发送 GET 请求。这个请求不受浏览器同源策略限制，但返回并被执行的 JavaScript 受限制。这个请求受父页面 HTTP/HTTPS 协议的限制。</p>
+        <p>来自外部域的代码会成为页面的一部分来加载和解释，所以我们可以通过不同域分发 JavaScript。但也要小心别有用心的人可能替换这个外部域JavaScript文件，这个时候就需要 Integrity
+          属性来确保该域是一个可信的来源，虽然这个属性也不是所有浏览器都支持。</p>
         
       </div>
 

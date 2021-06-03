@@ -1,6 +1,6 @@
 .bottom {
-  margin-top: 100px;
-  height: 370px;
+  margin-bottom: 20px;
+  height: 250px;
   width: 100%;
   z-index: -1;
   color: darkgrey;
@@ -10,7 +10,6 @@
 .bottom-contact {
   margin: auto;
   margin-bottom: 30px;
-  margin-top: 0px;
   width: 70%;
 }
 
