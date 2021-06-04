@@ -196,6 +196,7 @@
               var age = 30;
             }
           </code></pre>
+          <h2>声明的全局变量和函数都会变成 window 对象的属性和方法</h2>
 
           <h2>let</h2>
           <p>
@@ -237,7 +238,6 @@
           </p>
 
           <h3>let 全局声明的变量不会成为 window 对象的属性</h3>
-          <p>这与 var 不同：</p>
           <pre><code>
             var name = "Matt";
             console.log(window.name); // Matt
@@ -316,8 +316,9 @@
           <h2>const</h2>
           <p>
             const 与 let
-            基本相同，唯一重要区别是它声明变量时必须同时初始化变量，且声明后的值不能再修改。
-            const 也不允许重复声明。const 声明的作用域也是块。<br /><br />
+            基本相同，唯一重要区别是它声明变量时必须同时初始化变量，且声明后的值不能修改。
+            const 也不允许重复声明，作用域也是块。const 全局声明的变量不会成为
+            window 对象的属性<br /><br />
 
             但是 const 只限制它指向的变量，也就是说，如果 const
             声明了一个对象，那么修改对象内的属性合法。
@@ -345,6 +346,12 @@
             }
             // 1 2 3 4 5
           </code></pre>
+
+          <h2>推荐使用let和const</h2>
+          <p>
+            let 和 const 支持更精确地声明作用域和语义。const
+            声明的变量在浏览器运行时强制保持不变，方便静态代码分析工具提前发现不合法的赋值操作。
+          </p>
         </div>
 
         <div class="bottom unhome-padding">
