@@ -134,10 +134,8 @@
 
         <h2>React元素</h2>
         <p>
-          React由React元素构成。不管用JSX还是原生JavaScript编写，都会创建对象，这些对象就是react元素。React
-          通过读取这些对象来构建 DOM 并保持随时更新。<br />
-
-          比如：
+          React由React元素构成。不管用JSX还是原生JavaScript编写都会创建对象，这些对象就是react元素。React DOM
+          通过读取React元素来更新 DOM 来与React元素保持一致：
         </p>
         <pre><code>
           // JSX
@@ -163,6 +161,22 @@
             },
           };
           </code></pre>
+        <h2>根节点</h2>
+        <p>React是单页面应用，从根节点开始渲染。</p>
+        <pre><code>
+          &lt;div id="root">&lt;/div>
+          </code></pre>
+        <p>类似Angular的：</p>
+
+        <pre><code>
+          &lt;app-root>&lt;/app-root>
+          </code></pre>
+        <p>通过 ReactDOM.render()，将 React 元素渲染到根 DOM 节点：</p>
+        <pre><code>
+          const element = &lt;h1>Hello, world!&lt;/h1>;
+          ReactDOM.render(element, document.getElementById("root"));
+          </code></pre>
+        
       </div>
 
       <div class="bottom unhome-padding">
