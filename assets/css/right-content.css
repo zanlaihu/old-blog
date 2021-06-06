@@ -35,7 +35,7 @@
   color: #242424;
   font-size: 14px;
   line-height: 28px;
-  /* 超级好用的自动换行属性 */
+  /* 自动换行属性 */
   /* white-space: pre-line; */
 }
 
@@ -52,7 +52,7 @@
   background: #f3f3f3;
   color: #474747;
   font-family: monospace;
-  font-size: small;
+  font-size: 14px;
   line-height: 20px;
   z-index: -1;
 }
