@@ -92,7 +92,7 @@
       <a href="react-2.html">
         <div class="chapter">2 JSX</div>
       </a>
-      <a href="react-a-1.html">
+      <a href="">
         <div class="chapter">附录1 在网页中引入React</div>
       </a>
     </div>
@@ -101,8 +101,44 @@
 
     <div class="right-content">
       <div class="content-content">
-        <h1>React</h1>
-        <p>通过React官网进行学习。</p>
+        <h1>在网页中引入React</h1>
+        <p>除了直接创建 React 应用，也可以在网站渐进式引入 React。<br>
+
+          在网站的\&lt;/body>结束标签之前，添加两个个\&lt;script>外部链接。它们是 CDN 链接。</p>
+        <pre><code>
+          &lt;body>
+            &lt;script
+              src="https://unpkg.com/react@17/umd/react.development.js"
+              crossorigin
+            >&lt;/script>
+            &lt;script
+              src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+              crossorigin
+            >&lt;/script>
+          &lt;/body>
+        </code></pre>
+        <p>crossorigin 是跨域属性。添加后若设置空值，将不会通过 cookies，客户端 SSL 证书或 HTTP
+          认证交换用户凭据。具体参考：
+          <a
+            href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Attributes/crossorigin">https://developer.mozilla.org/zh-CN/docs/Web/HTML/Attributes/crossorigin</a>
+        </p>
+        <p>实际生产环境推荐 production.min.js 结尾的外部链接。</p>
+        <pre><code>
+          &lt;body>
+            &lt;script
+              src="https://unpkg.com/react@16/umd/react.production.min.js"
+              crossorigin
+            >&lt;/script>
+            &lt;script
+              src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"
+              crossorigin
+            >&lt;/script>
+          &lt;/body>
+        </code></pre>
+        <p>但是这样引入，只能使用原生JavaScript。如果想要使用JSX，则需要JSX预处理器。但是那样还不如新建一个react项目。<br>具体参考：
+          <a
+            href="https://react.docschina.org/docs/add-react-to-a-website.html">https://react.docschina.org/docs/add-react-to-a-website.html</a>
+        </p>
       </div>
 
       <div class="bottom unhome-padding">

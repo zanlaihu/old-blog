@@ -116,7 +116,7 @@
           const name = "Klaus";
           const element = &lt;h1>Hello, {name}&lt;/h1>;
         </code></pre>
-        <p>React 的{}可以放置任何 JavaScript 表达式，比如：2 + 2，user.firstName 或 formatName(user)。</p><br>
+        <p>{}内可以放置任何 JavaScript 表达式，比如：2 + 2，user.firstName 或 formatName(user)。</p><br>
         <p>因为是表达式，所以可以在语法中使用：</p>
         <pre><code>
           function getGreeting(user) {
@@ -126,6 +126,18 @@
             return &lt;h1>Hello, Stranger.&lt;/h1>;
           }
         </code></pre>
+        <h2>JSX 引入图片</h2>
+        <p>不能直接在 src 内添加 url。并且图片还不能放在 src 外面。</p>
+        <pre><code>
+          import imgUrl from "./img/react-init.png";
+
+          &lt;img src={imgUrl} alt="">&lt;/img>;
+        </code></pre>
+
+        <h2>JSX 可以防止注入攻击</h2>
+        <p>因为React DOM 在渲染所有输入内容之前，默认会进行转义。它确保应用中不会注入并非自己明确编写的内容。所有内容在渲染之前都被转换成了字符串。这样可以有效地防止
+          <a href="https://zh.wikipedia.org/wiki/跨網站指令碼">XSS（cross-site-scripting,跨站脚本）攻击</a>。
+        </p>
       </div>
 
       <div class="bottom unhome-padding">
