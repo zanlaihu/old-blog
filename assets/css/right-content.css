@@ -61,3 +61,7 @@
   position: relative;
   left: -50px;
 }
+
+.right-content a{
+  color: #40a9ff;
+}

@@ -89,7 +89,7 @@
       <a href="react-1.html">
         <div class="chapter">1 什么是React</div>
       </a>
-      <a href="react-2.html">
+      <a href="react-1.html">
         <div class="chapter">2 JSX</div>
       </a>
     </div>
@@ -98,8 +98,34 @@
 
     <div class="right-content">
       <div class="content-content">
-        <h1>React</h1>
-        <p>通过React官网进行学习。</p>
+        <h1>JSX</h1>
+        <p>JSX 是 JavaScript 的语法扩展，与原生 JavaScript 等价。</p>
+        <h2>为什么使用 JSX</h2>
+        <p>React 没有数据绑定。它将 UI 和逻辑一起存放到组件，让代码在视觉上更清晰，实现<a href="https://zh.wikipedia.org/wiki/关注点分离。">关注点分离</a>。</p>
+
+        <h3>JSX 属性采用驼峰式命名</h3>
+        <p>JSX 本质上并不是 HTML，内部的属性使用驼峰式命名，比如 HTML 的 tabindex，在这里是 tabIndex。</p>
+        <pre><code>
+          const element = &lt;div tabIndex="0">&lt;/div>;
+          const element = &lt;img src={user.url}>&lt;/img>;
+        </code></pre>
+
+        <h2>JSX 表达式</h2>
+        <p>与 Angular 的单向数据绑定异曲同工：</p>
+        <pre><code>
+          const name = "Klaus";
+          const element = &lt;h1>Hello, {name}&lt;/h1>;
+        </code></pre>
+        <p>React 的{}可以放置任何 JavaScript 表达式，比如：2 + 2，user.firstName 或 formatName(user)。</p><br>
+        <p>因为是表达式，所以可以在语法中使用：</p>
+        <pre><code>
+          function getGreeting(user) {
+            if (user) {
+              return &lt;h1>Hello, {formatName(user)}!&lt;/h1>;
+            }
+            return &lt;h1>Hello, Stranger.&lt;/h1>;
+          }
+        </code></pre>
       </div>
 
       <div class="bottom unhome-padding">
