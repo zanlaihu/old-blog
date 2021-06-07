@@ -35,7 +35,7 @@
   color: #242424;
   font-size: 14px;
   line-height: 28px;
-  /* 超级好用的自动换行属性 */
+  /* 自动换行属性 */
   /* white-space: pre-line; */
 }
 
@@ -56,7 +56,7 @@
   background: #474747;
   color: #f3f3f3;
   font-family: monospace;
-  font-size: small;
+  font-size: 14px;
   line-height: 20px;
   z-index: -1;
 }
@@ -64,4 +64,8 @@
 .right-content code {
   position: relative;
   left: -50px;
+}
+
+.right-content a{
+  color: #40a9ff;
 }

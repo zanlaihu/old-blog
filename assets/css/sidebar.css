@@ -4,7 +4,6 @@
   height: 85%;
   width: 16%;
   overflow:auto;
-  color: #474747;
   font-size: 14px;
 }
 
@@ -13,6 +12,11 @@
   height: 45px;
   line-height: 40px;
   font-weight: bold;
+  color: #474747;
+}
+
+.know-name:hover{
+  color: #40a9ff;
 }
 
 .know-name-focus {
