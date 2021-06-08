@@ -17,6 +17,18 @@
   margin: auto;
 }
 
+/* navigation */
+.navigation {
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  top: 0;
+  height: 64px;
+  z-index: 20000;
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
 /* 头像 */
 .profile {
   float: left;
@@ -46,15 +58,6 @@
 .logo1 {
   margin-right: 5px;
   color: inherit;
-}
-
-/* navigation */
-.navigation {
-  position: sticky;
-  position: -webkit-sticky; /* Safari */
-  top: 0;
-  height: 64px;
-  z-index: 20000;
 }
 
 .navigation-unhome {
