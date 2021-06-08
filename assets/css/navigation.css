@@ -61,9 +61,8 @@
 
 .navigation-unhome {
   color: #262626;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
   box-shadow: 0 3px 8px 0px #f3f3f3;
-  z-index: 0;
   background-color: rgba(255, 255, 255, 0.3);
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
