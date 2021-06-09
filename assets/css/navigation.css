@@ -131,7 +131,14 @@
   padding: 0 10px;
   float: left;
   height: 30px;
-  background: url("../img/GitHub.svg") no-repeat center center;
+}
+
+.github-white {
+  background: url("../img/github-white.svg") no-repeat center center;
+}
+
+.github-black {
+  background: url("../img/github-black.svg") no-repeat center center;
 }
 
 @media screen and (min-width: 0px) and (max-width: 1450px) {
