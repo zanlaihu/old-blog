@@ -62,9 +62,13 @@
 .ins-title {
   margin-top: 30px;
   margin-bottom: 30px;
-  width: 100%;
+  width: 400px;
   line-height: 40px;
   font-size: xx-large;
+}
+
+.ins-ins{
+  width: 600px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 1450px) {
