@@ -3,7 +3,7 @@
   border-right: 1px solid #f3f3f3;
   height: 85%;
   width: 16%;
-  overflow:auto;
+  overflow: auto;
   font-size: 14px;
 }
 
@@ -15,7 +15,7 @@
   color: #474747;
 }
 
-.know-name:hover{
+.know-name:hover {
   color: #40a9ff;
 }
 
@@ -40,4 +40,10 @@
   color: #40a9ff;
   background-color: rgb(230, 247, 255, 1);
   border-right: 3px solid #40a9ff;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+  .sidebar {
+    display: none;
+  }
 }

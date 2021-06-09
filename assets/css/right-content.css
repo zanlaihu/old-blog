@@ -66,6 +66,16 @@
   left: -50px;
 }
 
-.right-content a{
+.right-content a {
   color: #40a9ff;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+  .right-content {
+    padding-left: 0%;
+  }
+
+  .content-content {
+    padding-right: 8%;
+  }
 }
