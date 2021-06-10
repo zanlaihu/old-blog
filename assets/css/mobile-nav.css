@@ -11,4 +11,10 @@
 }
 
 .mobile-nav-choice {
+  margin: auto;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  height: 70px;
+  font-size: x-large;
 }
