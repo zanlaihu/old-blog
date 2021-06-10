@@ -133,6 +133,10 @@
   height: 30px;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 .github-white {
   background: url("../img/github-white.svg") no-repeat center center;
 }
@@ -149,16 +153,24 @@
   .navigation-content {
     width: 90%;
   }
-
 }
 
-@media screen and (min-width:0px) and (max-width: 680px) {
-  .navigation-choice{
+@media screen and (min-width: 0px) and (max-width: 680px) {
+  .navigation-choice {
     display: none;
+  }
+  .mobile-nav {
+    display: inline;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    width: 30px;
+    height: 30px;
+    float: right;
+    background: url("../img/more-white.svg") no-repeat center center;
   }
 }
 
-@media screen and (min-width:0px) and (max-width: 570px) {
+@media screen and (min-width: 0px) and (max-width: 570px) {
   /* .news {
     padding: 0 5px;
   } */
