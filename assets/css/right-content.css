@@ -12,9 +12,9 @@
 .right-content h1 {
   margin-top: 20px;
   margin-bottom: 50px;
-  text-align: center;
+  /* text-align: center; */
   font-size: 35px;
-  /* color: #40a9ff; */
+  color: #40a9ff;
 }
 
 .right-content h2 {

@@ -22,10 +22,21 @@
   position: sticky;
   position: -webkit-sticky; /* Safari */
   top: 0;
-  height: 64px;
   z-index: 20000;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+
+.navigation-unhome {
+  color: #262626;
+  box-shadow: 0 3px 8px 0px #f3f3f3;
+  background-color: white;
+}
+
+.navigation-content {
+  margin: auto;
+  height: 64px;
+  width: 70%;
 }
 
 /* 头像 */
@@ -56,21 +67,6 @@
 
 .logo1 {
   margin-right: 5px;
-  color: inherit;
-}
-
-.navigation-unhome {
-  color: #262626;
-  /* margin-bottom: 32px; */
-  box-shadow: 0 3px 8px 0px #f3f3f3;
-  background-color: rgba(255, 255, 255, 0.3);
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
-}
-
-.navigation-content {
-  margin: auto;
-  width: 70%;
   color: inherit;
 }
 
@@ -133,6 +129,10 @@
   height: 30px;
 }
 
+.mobile-nav-control {
+  display: none;
+}
+
 .github-white {
   background: url("../img/github-white.svg") no-repeat center center;
 }
@@ -149,16 +149,24 @@
   .navigation-content {
     width: 90%;
   }
-
 }
 
-@media screen and (min-width:0px) and (max-width: 680px) {
-  .navigation-choice{
+@media screen and (min-width: 0px) and (max-width: 680px) {
+  .navigation-choice {
     display: none;
+  }
+  .mobile-nav-control {
+    display: inline;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    width: 30px;
+    height: 30px;
+    float: right;
+    background: url("../img/more-white.svg") no-repeat center center;
   }
 }
 
-@media screen and (min-width:0px) and (max-width: 570px) {
+@media screen and (min-width: 0px) and (max-width: 570px) {
   /* .news {
     padding: 0 5px;
   } */

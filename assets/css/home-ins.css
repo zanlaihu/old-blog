@@ -1,7 +1,7 @@
 .home-ins {
   position: relative;
   bottom: 64px;
-  height: 600px;
+  height: 800px;
   background: linear-gradient(
     -45deg,
     rgba(130, 29, 200, 1) 0%,
@@ -66,7 +66,7 @@
   font-size: xx-large;
 }
 
-.ins-ins{
+.ins-ins {
   width: 600px;
 }
 
@@ -76,14 +76,8 @@
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 570px) {
-  .ins-ins{
-    width: 470px;
-  }
-}
-
-@media screen and (min-width: 0px) and (max-width: 450px) {
-  .ins-ins{
+@media screen and (min-width: 0px) and (max-width: 650px) {
+  .ins-ins {
     width: 380px;
   }
 }
@@ -91,5 +85,17 @@
 @media screen and (min-width: 0px) and (max-width: 430px) {
   .ins-title {
     width: 300px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 376px) {
+  .ins-news {
+    width: 300px;
+  }
+  .ins-news-title {
+    width: 190px;
+  }
+  .ins-ins {
+    width: 310px;
   }
 }
