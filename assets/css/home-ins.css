@@ -76,7 +76,13 @@
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 650px) {
+@media screen and (min-width: 0px) and (max-width: 570px) {
+  .ins-ins{
+    width: 470px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
   .ins-ins{
     width: 380px;
   }
