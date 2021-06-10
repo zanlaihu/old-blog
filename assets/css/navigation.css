@@ -23,8 +23,8 @@
   position: -webkit-sticky; /* Safari */
   top: 0;
   z-index: 20000;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
 }
 
 .navigation-content {
@@ -45,8 +45,8 @@
   height: 400px;
   width: 100%;
   /* background-color: rgba(255, 255, 255, 0.3); */
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
   z-index: 20000;
 }
 
