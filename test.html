@@ -10,8 +10,7 @@
     <div>
       <div class="inner-header">
         <!--两条横线菜单-->
-        <div class="inner-header-icon inner-header-icon-out">
-          <span></span>
+        <div class="inner-header-icon">
           <span></span>
           <span></span>
         </div>
@@ -19,8 +18,7 @@
          
       <!--菜单展开项-->
       <div class="inner-nav">
-        <a href="#">第一页</a>         
-        <a href="#">第二页</a>        
+        <a href="#">第一页</a>         <a href="#">第二页</a>        
         <a href="#">第三页</a>    
       </div>
     </div>
@@ -28,9 +26,19 @@
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script>
       $(function () {
+        let i = 1;
         $(".inner-header-icon").click(function () {
           //点击菜单按钮事件
-          $(this).toggleClass("inner-header-icon-click inner-header-icon-out");
+          if (i > 0) {
+            i = i - 1;
+            $(this).addClass("inner-header-icon-click");
+            $(this).removeClass("inner-header-icon-out");
+          } else {
+            i = i + 1;
+            $(this).removeClass("inner-header-icon-click");
+            $(this).addClass("inner-header-icon-out");
+          }
+
           $(".inner-nav").slideToggle(250);
         });
         $(".inner-nav").click(function () {

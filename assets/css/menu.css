@@ -8,17 +8,12 @@
 }
 
 .inner-header-icon {
-  color: #ffffff;
   height: 50px;
   font-size: 25px;
   text-align: center;
   float: right;
   width: 50px;
   position: relative;
-  -webkit-transition: background 0.5s;
-  -moz-transition: background 0.5s;
-  -o-transition: background 0.5s;
-  transition: background 0.5s;
 }
 
 .inner-header-icon span {
@@ -35,10 +30,6 @@
 }
 
 .inner-header-icon span:nth-child(2) {
-  opacity: 0;
-}
-
-.inner-header-icon span:nth-child(3) {
   transform: translateY(-4px) rotate(0deg);
 }
 
@@ -49,12 +40,6 @@
 }
 
 .inner-header-icon-click span:nth-child(2) {
-  animation-duration: 0.5s;
-  animation-fill-mode: both;
-  animation-name: clicksecond;
-}
-
-.inner-header-icon-click span:nth-child(3) {
   animation-duration: 0.5s;
   animation-fill-mode: both;
   animation-name: clickthird;
@@ -68,16 +53,6 @@
 
   100% {
     transform: translateY(0) rotate(45deg);
-  }
-}
-
-/*第二条线淡入淡出动画动画*/
-@keyframes clicksecond {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
   }
 }
 
@@ -101,12 +76,6 @@
 .inner-header-icon-out span:nth-child(2) {
   animation-duration: 0.5s;
   animation-fill-mode: both;
-  animation-name: outsecond;
-}
-
-.inner-header-icon-out span:nth-child(3) {
-  animation-duration: 0.5s;
-  animation-fill-mode: both;
   animation-name: outthird;
 }
 
@@ -117,16 +86,6 @@
 
   100% {
     transform: translateY(-4px) rotate(0deg);
-  }
-}
-
-@keyframes outsecond {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
   }
 }
 
