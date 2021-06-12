@@ -1,60 +1,38 @@
 /* 顶端的warmmings */
 .news {
-  padding: 0 20px;
+  width: 100%;
+  height: auto;
   background-image: linear-gradient(
     to right,
     rgb(222, 120, 252, 1),
     rgb(126, 69, 255, 1)
   );
-  color: #ffffff;
-  width: 100%;
-  font-size: x-small;
-  height: auto;
 }
 
 .news-text {
-  width: 70%;
   margin: auto;
+  width: 70%;
+  text-align: center;
+  color: #ffffff;
+  font-size: x-small;
 }
 
 /* navigation */
 .navigation {
   position: sticky;
-  position: -webkit-sticky; /* Safari */
-  top: 0;
-  z-index: 20000;
-  -webkit-backdrop-filter: blur(15px);
-  backdrop-filter: blur(15px);
-}
-
-.test-top-element{
-  height: 50px;
-  background-color: rosybrown;
-}
-
-.test-navigation {
-  position: sticky;
   position: -webkit-sticky;
   top: 0;
-  height: 60px;
-  /* background-color: rgb(126, 69, 255, 1); */
+  height: 50px;
+  z-index: 5;
 }
 
-.test-dropdown{
+.dropdown {
   position: absolute;
-  height: 60px;
+  height: 50px;
   width: 100%;
-  background-color: rgba(228, 228, 228, 0.2);
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
-}
-
-.test-bottom-element{
-  position: relative;
-  top: -60px;
-  height: 1200px;
-  z-index: -1;
-  background-image: url("../img/frults.jpeg");
+  z-index: 10;
 }
 
 .navigation-unhome {
