@@ -33,6 +33,36 @@
   z-index: 10;
 }
 
+/* .dropdown-menu{
+  display: none;
+  position: absolute;
+  top: 50px;
+}
+
+.dropdown-menu a{
+  display: none;
+} */
+
+/* .dropdown a {
+  display: inline-block;
+  line-height: 50px;
+  text-decoration: none;
+  width: 80%;
+  margin-left: 10%;
+  color: #ffffff;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  font-weight: 300;
+}
+
+.dropdown a:hover {
+  color: rgba(255, 255, 255, 0.4);
+  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+} */
+
 .navigation-content {
   position: absolute;
   left: 15%;
@@ -103,11 +133,6 @@
 
 .github-black {
   background: url("../img/github-black.svg") no-repeat center center;
-}
-
-.dropdown-control{
-  display: none;
-  float: right;
 }
 
 @media screen and (min-width: 0px) and (max-width: 1450px) {
