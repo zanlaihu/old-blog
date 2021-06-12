@@ -12,7 +12,6 @@
 .news-text {
   margin: auto;
   text-align: center;
-  color: #ffffff;
   font-size: x-small;
 }
 
@@ -43,7 +42,6 @@
 
 /* logo */
 .logo {
-  width: 40px;
   height: 50px;
   line-height: 50px;
   font-size: 40px;
@@ -52,63 +50,40 @@
 }
 
 .navigation-choice {
+  margin-right: 20px;
   float: right;
 }
 
 .choice {
   margin-left: 25px;
   float: left;
+  height: 50px;
+  line-height: 50px;
   font-size: 13px;
 }
 
-/* 头像 */
-.profile {
-  float: left;
-}
-
-.profile-pic {
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 44px;
-  height: 44px;
-  border: 1px solid #ffffff;
-  border-radius: 100%;
-  background: url("../img/astro.svg") no-repeat center center;
-}
-
 .choice:hover {
-  height: 60px;
-  line-height: 60px;
+  line-height: 46px;
   border-top: 2px solid #ffffff;
-  padding-top: -2px;
+  border-bottom: 2px;
+}
+
+.choice-focused {
+  line-height: 46px;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px;
 }
 
 .unhome-choice {
-  margin-left: 25px;
-  float: left;
   color: #262626;
 }
 
 .unhome-choice:hover {
-  height: 60px;
-  line-height: 60px;
   border-top: 2px solid #40a9ff;
-  padding-top: -2px;
   color: #40a9ff;
 }
 
-.choice-focused {
-  height: 60px;
-  line-height: 60px;
-  border-top: 2px solid #ffffff;
-  padding-top: -2px;
-}
-
 .unhome-focused {
-  padding-top: -2px;
-  height: 60px;
-  line-height: 60px;
   border-top: 2px solid #40a9ff;
   color: #40a9ff;
 }
@@ -116,15 +91,10 @@
 /* GitHub */
 .github {
   margin-left: 25px;
-  margin-top: 17px;
-  margin-bottom: 17px;
+  margin-top: 10px;
   padding: 0 10px;
-  float: left;
   height: 30px;
-}
-
-.mobile-nav-control {
-  display: none;
+  float: left;
 }
 
 .github-white {
@@ -135,8 +105,12 @@
   background: url("../img/github-black.svg") no-repeat center center;
 }
 
-@media screen and (min-width: 0px) and (max-width: 1450px) {
+.dropdown-control{
+  display: none;
+  float: right;
+}
 
+@media screen and (min-width: 0px) and (max-width: 1450px) {
   .navigation-content {
     left: 5%;
     width: 90%;
@@ -147,6 +121,12 @@
   .navigation-choice {
     display: none;
   }
+  .dropdown-control{
+    display: inline;
+  }
+  .logo{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
 }
-
-
