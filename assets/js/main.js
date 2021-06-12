@@ -1,16 +1,10 @@
 $(function () {
-    function canToggle(){
-        if ($(".mobile-nav").css("display") == "block") {
-            $(".mobile-nav").animate({ height: "toggle" });
-        }
+  // navigation
+  $(".navigation").click(function () {
+    if ($(".dropdown").css("height") == "300px") {
+      $(".dropdown").animate({ height: "50px" });
+    } else {
+      $(".dropdown").animate({ height: "300px" });
     }
-
-    $(".mobile-nav-control").click(function () {
-        $(".mobile-nav").animate({ height: "toggle" });
-    });
-
-    // $(".home-ins").click(function () {canToggle()});
-    $(".home-ins").mouseenter(function () {canToggle()});
-
-    $(".mobile-nav-bottom").click(function () {canToggle()});
+  });
 });
