@@ -1,26 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link href="./assets/css/menu.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-    <title>Hu Zanlai Website</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1,
-			user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-</head>
-
-<body class="body-style">
+  <body>
     <div>
-        <div class="test-top-element"></div>
-        <div class="test-navigation">
-            <div class="test-dropdown"></div>
+      <div class="inner-header">
+        <!--两条横线菜单-->
+        <div class="inner-header-icon inner-header-icon-out">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-        <div class="test-bottom-element"></div>
+      </div>
+         
+      <!--菜单展开项-->
+      <div class="inner-nav">
+        <a href="#">第一页</a>         
+        <a href="#">第二页</a>        
+        <a href="#">第三页</a>    
+      </div>
     </div>
 
-    <!-- JavaScript -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/test.js"></script>
-</body>
-
+    <script>
+      $(function () {
+        $(".inner-header-icon").click(function () {
+          //点击菜单按钮事件
+          $(this).toggleClass("inner-header-icon-click inner-header-icon-out");
+          $(".inner-nav").slideToggle(250);
+        });
+        $(".inner-nav").click(function () {
+          //点击菜单列表项，收回菜单
+          $(".inner-header-icon").click(); //触发菜单按钮点击事件
+        });
+        $(".nner-nav a").each(function (index) {
+          $(this).css({ "animation-delay": index / 10 + "s" });
+        });
+      });
+    </script>
+  </body>
 </html>
