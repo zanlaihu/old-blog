@@ -11,7 +11,6 @@
 
 .news-text {
   margin: auto;
-  width: 70%;
   text-align: center;
   color: #ffffff;
   font-size: x-small;
@@ -35,33 +34,26 @@
   z-index: 10;
 }
 
-.navigation-choice {
+.navigation-content {
   position: absolute;
-  width: 450px;
-  height: 50px;
-  float: right;
+  left: 15%;
+  width: 70%;
   z-index: 20;
-}
-
-@font-face
-{
-    font-family: dacing-script;
-    src: url(../img/dacing-script.ttf);
 }
 
 /* logo */
 .logo {
-  position: absolute;
-  width: 100%;
+  width: 40px;
   height: 50px;
   line-height: 50px;
-  text-align: center;
   font-size: 40px;
   font-family: dacing-script;
-  z-index: 20;
+  float: left;
 }
 
-
+.navigation-choice {
+  float: right;
+}
 
 .choice {
   margin-left: 25px;
@@ -84,8 +76,6 @@
   border-radius: 100%;
   background: url("../img/astro.svg") no-repeat center center;
 }
-
-
 
 .choice:hover {
   height: 60px;
@@ -146,23 +136,17 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 1450px) {
-  .news-text {
+
+  .navigation-content {
+    left: 5%;
     width: 90%;
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 900px) {
+@media screen and (min-width: 0px) and (max-width: 600px) {
   .navigation-choice {
     display: none;
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 570px) {
-  /* .news {
-    padding: 0 5px;
-  } */
 
-  .news-text {
-    width: 95%;
-  }
-}
