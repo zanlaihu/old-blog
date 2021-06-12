@@ -27,6 +27,36 @@
   backdrop-filter: blur(15px);
 }
 
+.test-top-element{
+  height: 50px;
+  background-color: rosybrown;
+}
+
+.test-navigation {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  height: 60px;
+  /* background-color: rgb(126, 69, 255, 1); */
+}
+
+.test-dropdown{
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  background-color: rgba(228, 228, 228, 0.2);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+
+.test-bottom-element{
+  position: relative;
+  top: -60px;
+  height: 1200px;
+  z-index: -1;
+  background-image: url("../img/frults.jpeg");
+}
+
 .navigation-unhome {
   color: #262626;
   box-shadow: 0 3px 8px 0px #f3f3f3;

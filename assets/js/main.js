@@ -1,12 +1,12 @@
 $(function () {
     function canToggle(){
         if ($(".mobile-nav").css("display") == "block") {
-            $(".mobile-nav").animate({ height: "toggle" }, "fast");
+            $(".mobile-nav").animate({ height: "toggle" });
         }
     }
 
     $(".mobile-nav-control").click(function () {
-        $(".mobile-nav").animate({ height: "toggle" }, "fast");
+        $(".mobile-nav").animate({ height: "toggle" });
     });
 
     // $(".home-ins").click(function () {canToggle()});
