@@ -87,17 +87,6 @@
   .ins-title {
     width: 300px;
   }
-  .home-ins {
-    position: relative;
-    top: -50px;
-    height: 700px;
-    z-index: -1;
-    background: linear-gradient(
-      -45deg,
-      rgb(149, 0, 255) 20%,
-      rgb(0, 238, 255) 100%
-    );
-  }
 }
 
 @media screen and (min-width: 0px) and (max-width: 376px) {
