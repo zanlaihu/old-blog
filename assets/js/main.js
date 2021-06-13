@@ -7,12 +7,12 @@ $(function () {
       i = i - 1;
       $(this).addClass("inner-header-icon-click");
       $(this).removeClass("inner-header-icon-out");
-      $(".dropdown").animate({ height: "400px" });
+      $(".dropdown").animate({ height: "390px" });
     } else {
       i = i + 1;
       $(this).removeClass("inner-header-icon-click");
       $(this).addClass("inner-header-icon-out");
-      $(".dropdown").animate({ height: "50px" });
+      $(".dropdown").animate({ height: "40px" });
     }
 
     // 下拉弹出选项
