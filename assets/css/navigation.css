@@ -141,7 +141,7 @@
 }
 
 .dropdown-line-black {
-  border: 0.9px solid rgba(112, 112, 112, 0.055);
+  border: 0.9px solid rgb(255, 255, 255);
 }
 
 .dropdown-menu hr {
@@ -157,12 +157,12 @@
 }
 
 .dropdown-menu-black hr{
-  background-color: rgba(112, 112, 112, 0.055);
+  background-color: rgb(255, 255, 255);
 }
 
 .dropdown-menu a p {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 17px;
   margin: 0;
 }
 
