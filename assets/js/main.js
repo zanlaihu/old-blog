@@ -20,6 +20,8 @@ $(function () {
   });
   //
   $(".dropdown-menu a").each(function (index) {
+    $(this).fadeToggle();
     $(this).css({ "animation-delay": index / 10 + "s" });
   });
+
 });
