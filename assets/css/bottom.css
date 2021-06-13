@@ -17,11 +17,11 @@
 
 .contact-title {
   height: 20px;
-  color: rgb(97, 97, 97);
+  color: rgb(128, 128, 128);
 }
 
 .contact-message {
-  color: rgba(233, 233, 233, 0.377);
+  color: rgb(150, 150, 150);
   height: 15px;
 }
 
