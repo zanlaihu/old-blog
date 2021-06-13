@@ -24,6 +24,11 @@
   z-index: 5;
 }
 
+.navigation-content-unhome{
+  color: #262626;
+  
+}
+
 .navigation-content {
   position: absolute;
   left: 15%;
@@ -43,6 +48,10 @@
 .navigation-choice {
   margin-right: 20px;
   float: right;
+}
+
+.navigation-choice-unhome a{
+  color: #262626;
 }
 
 .choice {
@@ -113,6 +122,10 @@
   width: 80%;
   height: 350px;
   display: none;
+}
+
+.dropdown-menu-unhome a{
+  color: #262626;
 }
 
 .dropdown-line{

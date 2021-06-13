@@ -18,6 +18,10 @@
   background-color: rgb(235, 235, 235);
 }
 
+.inner-header-icon-unhome span{
+  background-color: rgba(24, 24, 24, 0.548);
+}
+
 .inner-header-icon span:nth-child(1) {
   transform: translateY(4px) rotate(0deg);
 }
