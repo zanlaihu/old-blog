@@ -7,24 +7,20 @@ $(function () {
       i = i - 1;
       $(this).addClass("inner-header-icon-click");
       $(this).removeClass("inner-header-icon-out");
+      $(".dropdown").animate({ height: "400px" });
     } else {
       i = i + 1;
       $(this).removeClass("inner-header-icon-click");
       $(this).addClass("inner-header-icon-out");
-    }
-
-    // 下拉弹出
-    if ($(".dropdown").css("height") == "300px") {
       $(".dropdown").animate({ height: "50px" });
-    } else {
-      $(".dropdown").animate({ height: "300px" });
     }
 
-    //
+    // 下拉弹出选项
     $(".dropdown-menu").slideToggle();
+    $(".dropdown-line").fadeToggle("fast");
   });
 
-
-
-
+  $(".inner-header-icon").hover(function () {
+    $(".inner-header-icon span").animate({"backgroud":"white"});
+  });
 });

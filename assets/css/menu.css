@@ -6,6 +6,7 @@
   float: right;
   width: 50px;
   position: relative;
+  cursor: pointer;
 }
 
 .inner-header-icon span {
@@ -14,7 +15,7 @@
   top: calc((100% - 1px) / 2);
   width: 25px;
   height: 1px;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgb(235, 235, 235);
 }
 
 .inner-header-icon span:nth-child(1) {
