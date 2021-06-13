@@ -120,13 +120,14 @@
   top: 49px;
   margin: auto;
   width: 100%;
-  border: 0.9px solid #ddd;
+  border: 0.9px solid rgba(255, 255, 255, 0.548);
   display: none;
 }
 
 .dropdown-menu hr{
-  /* margin: 0; */
+  border: none;
   height: 1px;
+  background-color: rgba(255, 255, 255, 0.548);
 }
 
 .dropdown-menu a p{
