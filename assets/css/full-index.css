@@ -1,7 +1,7 @@
 .full-index {
   width: 100%;
   height: auto;
-  color: #c0c0c0;
+  color: #afafaf;
 }
 
 .full-index-title {
@@ -41,17 +41,17 @@
 .single-content a {
   font-size: 14px;
   line-height: 25px;
-  color: #c0c0c0;
+  color: #afafaf;
 }
 
 .single-content a div{
   width: 100%;
-  border-bottom: 1px solid #c0c0c0;
+  border-bottom: 0.5px solid #c0c0c0;
 }
 
 .single-content a:nth-of-type(1) {
   font-size: 17px;
   line-height: 25px;
-  color: #afafaf;
+  color: #a3a3a3;
   text-align: center;
 }
