@@ -20,7 +20,12 @@
   margin: auto;
   width: 80%;
 }
-
+.single-content-title {
+  margin-bottom: 20px;
+  width: 100%;
+  border-bottom: 1px solid #c0c0c0;
+  text-align: center;
+}
 .single-content {
   flex-direction: row;
   margin-left: 20px;
@@ -32,4 +37,11 @@
   font-size: 14px;
   line-height: 20px;
   color: #c0c0c0;
+}
+
+.single-content a:nth-of-type(1) {
+  font-size: 17px;
+  line-height: 25px;
+  color: #afafaf;
+  color: linear-gradient(to right, rgb(222, 120, 252, 1), rgb(126, 69, 255, 1));
 }
