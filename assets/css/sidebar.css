@@ -1,49 +1,51 @@
 .sidebar {
-  position: fixed;
-  /* border-right: 1px solid #f3f3f3; */
+  position: absolute;
+  margin-top: 20px;
   height: 80%;
   width: 280px;
   overflow: auto;
   font-size: 14px;
 }
 
-.know-name {
-  padding-left: 25px;
-  height: 45px;
-  line-height: 40px;
-  font-weight: bold;
-  color: #474747;
-}
-
-.know-name:hover {
-  color: #40a9ff;
-}
-
-.know-name-focus {
-  color: #40a9ff;
-}
-
-.chapter {
+.sidebar a div {
   padding-left: 40px;
   height: 45px;
   line-height: 45px;
-  background: rgb(250, 250, 250);
   color: #474747;
 }
 
-.chapter:hover {
+.sidebar a div:hover {
   color: #40a9ff;
   background-color: rgb(230, 247, 255, 1);
 }
 
-.chapter-choosen {
-  color: #40a9ff;
-  background-color: rgb(230, 247, 255, 1);
+.note-title {
+  font-weight: bold;
+}
+
+.note-choosen {
   border-right: 3px solid #40a9ff;
+  background-color: rgb(230, 247, 255, 1);
 }
 
-@media screen and (min-width: 0px) and (max-width: 1024px) {
+.sidebar-icon{
+  margin-top: 7.5px;
+  padding: 0 14px;
+  height: 25px;
+  float: left;
+  background: url("../img/mulu.svg") no-repeat center center;
+  display: none;
+}
+
+.sidebar-icon:hover{
+  transform: rotate(20deg);
+}
+
+@media screen and (min-width: 0px) and (max-width: 1120px) {
   .sidebar {
     display: none;
+  }
+  .sidebar-icon{
+    display: inline;
   }
 }
