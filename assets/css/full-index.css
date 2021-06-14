@@ -9,7 +9,7 @@
   margin-bottom: 10px;
   width: 100%;
   text-align: center;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .full-index-content {
@@ -30,6 +30,8 @@
   width: 100%;
   border-bottom: 1px solid #ebebeb;
   text-align: center;
+  font-size: 17px;
+  /* color: rgb(220,118,252); */
 }
 
 .single-content {
@@ -52,7 +54,6 @@
 }
 
 .single-content a:nth-of-type(1) {
-  font-size: 17px;
   line-height: 25px;
   color: #838383;
   text-align: center;
