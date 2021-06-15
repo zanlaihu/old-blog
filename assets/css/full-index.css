@@ -54,6 +54,7 @@
 }
 
 .single-content a:nth-of-type(1) {
+  font-size: 15px;
   line-height: 25px;
   color: #838383;
   text-align: center;
