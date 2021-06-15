@@ -21,6 +21,6 @@ $(function () {
   });
 
   $(".inner-header-icon").hover(function () {
-    $(".inner-header-icon span").animate({"backgroud":"white"});
+    $(".inner-header-icon span").animate({ backgroud: "white" });
   });
 });

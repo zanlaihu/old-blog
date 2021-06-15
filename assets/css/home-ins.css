@@ -3,11 +3,19 @@
   top: -50px;
   height: 720px;
   z-index: -1;
+
+}
+
+.home-ins-home{
   background: linear-gradient(
     -45deg,
     rgb(136, 23, 216) 20%,
     rgb(37, 188, 223) 100%
   );
+}
+
+.home-ins-other{
+  background-color: black;
 }
 
 .ins-content {
