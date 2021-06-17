@@ -1,5 +1,5 @@
 $(function () {
-  const newText = "6月16日，专业技能和项目经历仍在施工中。";
+  const newText = "6月17日，专业技能和项目经历仍在施工中。";
   $(".news-text").append(newText);
   //点击菜单按钮事件
   let i = 1;
