@@ -1,7 +1,7 @@
 /* 顶端的warmmings */
 .news {
   width: 100%;
-  height: auto;
+  height: 20px;
 }
 
 .news-purple {
@@ -26,6 +26,7 @@
 
 .news-text {
   margin: auto;
+  line-height: 20px;
   text-align: center;
   font-size: x-small;
 }
