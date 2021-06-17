@@ -1,9 +1,10 @@
 .sidebar {
   position: absolute;
-  height: 80%;
+  top: 50px;
   width: 280px;
   overflow: auto;
   font-size: 14px;
+  border-right: 1px solid #f2f2f2;
 }
 
 .sidebar a div {
@@ -27,7 +28,7 @@
   background-color: rgb(230, 247, 255, 1);
 }
 
-.sidebar-icon{
+.sidebar-icon {
   margin-top: 7.5px;
   padding: 0 14px;
   height: 25px;
@@ -36,7 +37,7 @@
   display: none;
 }
 
-.sidebar-icon:hover{
+.sidebar-icon:hover {
   transform: rotate(20deg);
 }
 
@@ -44,7 +45,7 @@
   .sidebar {
     display: none;
   }
-  .sidebar-icon{
+  .sidebar-icon {
     display: inline;
   }
 }
