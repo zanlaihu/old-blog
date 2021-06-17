@@ -1,0 +1,7 @@
+.bottom-pic {
+  position: fixed;
+  top: 120px;
+  width: 200px;
+  left: calc(50% - 100px);
+  z-index: -1;
+}
