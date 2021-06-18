@@ -105,8 +105,8 @@
 }
 
 .choice-study:hover {
-  border-top: 2px solid #40a9ff;
-  color: #40a9ff;
+  border-top: 2px solid #a26aec;
+  color: #a26aec;
 }
 
 .choice-focused {
@@ -119,8 +119,8 @@
 }
 
 .choice-focused-study {
-  border-top: 2px solid #40a9ff;
-  color: #40a9ff;
+  border-top: 2px solid #a26aec;
+  color: #a26aec;
 }
 
 /* GitHub */
