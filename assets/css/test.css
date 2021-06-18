@@ -1,7 +1,8 @@
 .bottom-pic {
   position: fixed;
-  top: 120px;
-  width: 200px;
-  left: calc(50% - 100px);
+  top: 280px;
+  width: 100px;
+  left: calc(50% - 10px);
   z-index: -1;
+  text-align: center;
 }
