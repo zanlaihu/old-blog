@@ -52,15 +52,16 @@
   border-radius: 10px;
   background: #474747;
   color: #f3f3f3;
-  font-family: monospace;
   font-size: 14px;
   line-height: 20px;
   z-index: -1;
+  overflow: auto;
 }
 
 .right-content code {
   position: relative;
   left: -50px;
+  overflow-x: auto;
 }
 
 .right-content a {
