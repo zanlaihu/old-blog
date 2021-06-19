@@ -1,0 +1,13 @@
+.about-content {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: -webkit-wrap;
+  justify-content: space-around;
+  justify-content: -webkit-space-around;
+  background-color: rgb(63, 63, 63);
+}
+
+.about-single-content {
+  flex-direction: row;
+}
