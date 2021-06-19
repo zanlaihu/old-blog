@@ -149,6 +149,10 @@
   z-index: 10;
 }
 
+.dropdown-dark{
+  background: rgba(49, 49, 49, 0.425);
+}
+
 .dropdown-menu {
   position: relative;
   top: 40px;
