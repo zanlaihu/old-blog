@@ -37,8 +37,8 @@
 
 .single-content {
   flex-direction: row;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
   margin-bottom: 20px;
   width: auto;
 }
@@ -67,8 +67,6 @@
     line-height: 55px;
   }
   .single-content {
-
     margin-bottom: 50px;
-
   }
 }
