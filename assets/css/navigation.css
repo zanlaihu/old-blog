@@ -228,15 +228,16 @@
   .github {
     display: none;
   }
-  .logo{
+  .logo {
     position: absolute;
     width: 100%;
     text-align: center;
+    font-size: 30px;
   }
-  .logo-white{
+  .logo-white {
     color: #ffffff;
   }
-  .logo-black{
+  .logo-black {
     color: #262626;
   }
 }
