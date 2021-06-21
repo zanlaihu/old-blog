@@ -195,9 +195,9 @@ body,
 input,
 textarea,
 select {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Ubuntu, "Helvetica Neue", Arial, sans-serif, Apple Color Emoji,
-    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro",
+    "SF Pro Icons", "Apple Legacy Chevron", "PingFang SC", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
   font-weight: 400;
   color: #ffffff;
   font-size: 14pt;
