@@ -4,15 +4,11 @@
   z-index: -1;
 }
 
-.home-ins-home{
-  background: linear-gradient(
-    -45deg,
-    rgb(136, 23, 216) 20%,
-    rgb(37, 188, 223) 100%
-  );
+.home-ins-home {
+  background: linear-gradient(-45deg, #7e1fc4, rgb(37, 188, 223) 100%);
 }
 
-.home-ins-other{
+.home-ins-other {
   background-color: black;
 }
 
