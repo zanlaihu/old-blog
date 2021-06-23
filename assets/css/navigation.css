@@ -60,67 +60,68 @@
 
 /* logo */
 .logo {
-  width: 40px;
+  width: 50px;
   height: 40px;
   line-height: 40px;
-  font-size: 30px;
+  font-size: 25px;
   font-family: dacing-script;
-  float: left;
 }
 
-.study-logo {
-  position: absolute;
-  left: 40px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 25px;
-  color: #474747;
-  z-index: 40;
+.logo-white {
+  color: #ffffffcb;
+}
+
+.logo-white:hover {
+  color: #ffffff;
+}
+
+.logo-black {
+  color: #616161;
+}
+
+.logo-black:hover {
+  color: #000000;
 }
 
 .navigation-choice {
-  margin-right: 20px;
-  float: right;
-}
-
-.navigation-choice-unhome a {
-  color: #262626;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: -webkit-wrap;
+  justify-content: center;
+  justify-content: -webkit-space-around;
+  width: 100;
 }
 
 .choice {
-  margin-left: 25px;
-  float: left;
+  flex-direction: row;
+  margin-left: 28px;
+  margin-right: 28px;
   height: 40px;
   line-height: 40px;
+  text-align: center;
   font-size: 13px;
+  color: #ffffffee;
 }
 
 .choice:hover {
-  line-height: 36px;
-  border-bottom: 2px;
+  color: #ffffff;
 }
 
-.choice-home:hover {
-  border-top: 2px solid #ffffff;
+.choice-study {
+  color: #616161;
 }
 
 .choice-study:hover {
-  border-top: 2px solid #a26aec;
-  color: #a26aec;
+  color: #9b57db;
 }
 
-.choice-focused {
-  line-height: 36px;
-  border-bottom: 2px;
+.choice-focused-white {
+  color: #ffffff;
 }
 
-.choice-focused-home {
-  border-top: 2px solid #ffffff;
-}
-
-.choice-focused-study {
-  border-top: 2px solid #a26aec;
-  color: #a26aec;
+.choice-focused-black {
+  color: #9b57db;
 }
 
 /* GitHub */
@@ -129,7 +130,7 @@
   margin-top: 5px;
   padding: 0 10px;
   height: 30px;
-  float: left;
+  width: 20px;
 }
 
 .github-white {
@@ -149,7 +150,7 @@
   z-index: 10;
 }
 
-.dropdown-dark{
+.dropdown-dark {
   background: rgba(49, 49, 49, 0.425);
 }
 
@@ -220,19 +221,23 @@
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 1120px) {
-  .navigation-choice {
+@media screen and (min-width: 0) and (max-width: 900px) {
+  .choice {
     display: none;
   }
-  .dropdown-control {
-    display: inline;
+  .github {
+    display: none;
   }
   .logo {
     position: absolute;
-    left: 50%;
-    margin-left: -20px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
   }
-  .study-logo p {
-    display: none;
+  .logo-white {
+    color: #ffffff;
+  }
+  .logo-black {
+    color: #262626;
   }
 }
