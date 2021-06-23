@@ -60,7 +60,7 @@
 
 /* logo */
 .logo {
-  width: 45px;
+  width: 52px;
   height: 40px;
   line-height: 40px;
   font-size: 25px;
@@ -127,6 +127,7 @@
 /* GitHub */
 .github {
   margin-left: 25px;
+  margin-right: 12px;
   margin-top: 5px;
   padding: 0 10px;
   height: 30px;
