@@ -14,16 +14,16 @@
 .single-bar {
   flex-direction: row;
   margin-bottom: 10px;
-  height: 400px;
+  height: 600px;
   width: calc(50% - 5px);
 }
 
 .first-single-bar {
-  background: linear-gradient(-45deg, #40a9ff, #1890ff);
+  background: linear-gradient(-45deg, #bae637, #a0d911);
 }
 
 .second-single-bar {
-  background: linear-gradient(-45deg, #9254de, #722ed1);
+  background: linear-gradient(-45deg, #40a9ff, #1890ff);
 }
 
 .third-single-bar {
@@ -31,7 +31,7 @@
 }
 
 .fourth-single-bar {
-  background: linear-gradient(-45deg, #7e1fc4, rgb(37, 188, 223) 100%);
+  background: linear-gradient(-45deg, #9254de, #722ed1);
 }
 
 @media screen and (min-width: 0px) and (max-width: 650px) {

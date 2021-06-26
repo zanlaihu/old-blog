@@ -1,12 +1,12 @@
 .home-ins {
   position: relative;
-
   top: -50px;
   z-index: -1;
 }
 
 .home-ins-home {
   background: linear-gradient(-45deg, #7e1fc4, rgb(37, 188, 223) 100%);
+  height: 750px;
 }
 
 .home-ins-other {
@@ -23,34 +23,22 @@
 }
 
 .ins-title {
-  margin-top: 40px;
+  margin-top: 30px;
   width: 100%;
   text-align: center;
   line-height: 60px;
-  font-size: 43px;
+  font-size: 40px;
 }
 
 .ins-ins {
   margin: auto;
-  margin-top: 30px;
+  margin-top: 60px;
   width: 670px;
   font-size: 15px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 650px) {
-  .ins-ins {
-    width: 380px;
-  }
-}
-
-@media screen and (min-width: 0px) and (max-width: 376px) {
-  .ins-news {
-    width: 300px;
-  }
-  .ins-news-title {
-    width: 190px;
-  }
-  .ins-ins {
-    width: 310px;
+  .home-ins-home {
+    height: 750px;
   }
 }
