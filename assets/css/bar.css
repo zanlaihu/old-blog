@@ -19,7 +19,7 @@
 }
 
 .first-single-bar {
-  background: linear-gradient(-45deg, #bae637, #a0d911);
+  background: linear-gradient(-45deg, #40a9ff, #1890ff);
 }
 
 .second-single-bar {
@@ -27,11 +27,11 @@
 }
 
 .third-single-bar {
-  background: linear-gradient(-45deg, #f759ab, #eb2f96);
+  background: linear-gradient(-45deg, #40a9ff, #1890ff);
 }
 
 .fourth-single-bar {
-  background: linear-gradient(-45deg, #9254de, #722ed1);
+  background: linear-gradient(-45deg, #40a9ff, #1890ff);
 }
 
 @media screen and (min-width: 0px) and (max-width: 650px) {

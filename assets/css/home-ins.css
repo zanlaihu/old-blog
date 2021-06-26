@@ -33,7 +33,10 @@
 .ins-ins {
   margin: auto;
   margin-top: 60px;
-  width: 670px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  text-align: center;
   font-size: 15px;
 }
 
