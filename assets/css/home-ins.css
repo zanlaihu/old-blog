@@ -6,7 +6,7 @@
 
 .home-ins-home {
   background: linear-gradient(-45deg, #7e1fc4, rgb(37, 188, 223) 100%);
-  height: 750px;
+  height: 600px;
 }
 
 .home-ins-other {
@@ -27,12 +27,12 @@
   width: 100%;
   text-align: center;
   line-height: 60px;
-  font-size: 35px;
+  font-size: 32px;
 }
 
 .ins-ins {
   margin: auto;
-  margin-top: 60px;
+  margin-top: 30px;
   padding-left: 10px;
   padding-right: 10px;
   width: 100%;
