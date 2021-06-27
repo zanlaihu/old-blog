@@ -18,15 +18,15 @@
 }
 
 .first-single-bar {
-  background-color: rgba(247, 247, 247, 0.205);
+  background-color: rgba(20, 20, 20, 0.952);
 }
 
 .second-single-bar {
-  background-color: rgba(247, 247, 247, 0.205);
+  background-color: rgba(247, 247, 247, 0.808);
 }
 
 .third-single-bar {
-  background-color: rgba(247, 247, 247, 0.205);
+  background-color: rgba(247, 247, 247, 0.808);
 }
 
 .fourth-single-bar {
@@ -41,8 +41,8 @@
   color: rgb(240, 240, 240);
 }
 
-.single-bar-dark{
-    color: black;
+.single-bar-dark {
+  color: black;
 }
 
 @media screen and (min-width: 0px) and (max-width: 650px) {
