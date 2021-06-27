@@ -1,12 +1,5 @@
 .home-ins {
-  position: relative;
-  top: -50px;
-  z-index: -1;
-}
-
-.home-ins-home {
-  background: linear-gradient(-45deg, #7e1fc4, rgb(37, 188, 223) 100%);
-  height: 600px;
+  margin-bottom: 10px;
 }
 
 .home-ins-other {
@@ -18,8 +11,9 @@
   padding-top: 160px;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   width: 100%;
+  background-color: rgb(247, 247, 247);
 }
 
 .ins-title {
@@ -28,20 +22,24 @@
   text-align: center;
   line-height: 60px;
   font-size: 32px;
+  color: rgb(43, 43, 43);
 }
 
 .ins-ins {
   margin: auto;
-  margin-top: 30px;
+  margin-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
   width: 100%;
   text-align: center;
   font-size: 15px;
+  color: rgb(82, 82, 82);
 }
 
-@media screen and (min-width: 0px) and (max-width: 650px) {
-  .home-ins-home {
-    height: 750px;
-  }
+.ins-link {
+  margin-top: 130px;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  color: rgb(59, 111, 255);
 }
