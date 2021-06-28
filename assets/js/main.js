@@ -9,7 +9,7 @@ $(function () {
       i = i - 1;
       $(this).addClass("inner-header-icon-click");
       $(this).removeClass("inner-header-icon-out");
-      $(".dropdown").animate({ height: "390px" });
+      $(".dropdown").animate({ height: "350px" });
     } else {
       i = i + 1;
       $(this).removeClass("inner-header-icon-click");
