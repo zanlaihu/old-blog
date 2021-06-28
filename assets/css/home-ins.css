@@ -4,12 +4,11 @@
 
 .home-ins-blue {
   background-image: linear-gradient(
-    130deg,
-    rgb(50, 172, 248),
-    rgb(4, 165, 223),
-    rgb(19, 146, 224),
-    rgb(27, 127, 226),
-    rgb(128, 69, 255)
+    -45deg,
+    #7e1fc4,
+    rgb(29, 120, 199),
+    rgb(48, 146, 231),
+    rgb(37, 188, 223) 100%
   );
   /* background: linear-gradient(-200deg, #783bd3, rgb(37, 188, 223) 100%); */
 }
@@ -46,6 +45,7 @@
 }
 
 .ins-link {
+  margin-bottom: 125px;
   height: 30px;
   width: 100%;
   text-align: center;
