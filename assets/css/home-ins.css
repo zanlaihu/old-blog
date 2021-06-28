@@ -5,9 +5,9 @@
 .home-ins-blue {
   background-image: linear-gradient(
     130deg,
-    rgb(120, 221, 252),
     rgb(35, 171, 255),
-    rgb(35, 171, 255),
+    rgb(0, 186, 253),
+    rgb(22, 166, 255),
     rgb(0, 128, 255),
     rgb(128, 69, 255)
   );
