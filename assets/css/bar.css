@@ -1,0 +1,55 @@
+.bar {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: -webkit-wrap;
+  justify-content: space-between;
+  justify-content: -webkit-space-around;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.single-bar {
+  flex-direction: row;
+  margin-bottom: 10px;
+  height: 500px;
+  width: calc(50% - 5px);
+}
+
+.first-single-bar {
+  background-color: rgba(20, 20, 20, 0.952);
+}
+
+.second-single-bar {
+  background-color: rgba(247, 247, 247, 0.808);
+}
+
+.third-single-bar {
+  background-color: rgba(247, 247, 247, 0.808);
+}
+
+.fourth-single-bar {
+  background-color: rgba(20, 20, 20, 0.952);
+}
+
+.single-bar-back {
+  margin-left: 20px;
+  margin-top: 45px;
+  font-size: 70px;
+  font-weight: 900;
+  color: rgb(240, 240, 240);
+}
+
+.single-bar-dark {
+  color: black;
+}
+
+@media screen and (min-width: 0px) and (max-width: 650px) {
+  .bar {
+    margin: 0;
+  }
+  .single-bar {
+    width: 100%;
+  }
+}

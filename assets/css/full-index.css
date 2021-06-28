@@ -49,6 +49,10 @@
   color: #838383;
 }
 
+.single-content a:hover {
+  color: #ac6dfd;
+}
+
 .single-content a div {
   width: 100%;
   border-bottom: 0.5px solid #ebebeb;

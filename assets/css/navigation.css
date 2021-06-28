@@ -3,6 +3,16 @@
   width: 100%;
 }
 
+.news-blue {
+  background-image: linear-gradient(
+    to right,
+    rgb(120, 221, 252),
+    rgb(69, 171, 255),
+    rgb(69, 143, 255),
+    rgb(156, 69, 255)
+  );
+}
+
 .news-purple {
   background-image: linear-gradient(
     to right,
@@ -40,7 +50,7 @@
 }
 
 .navigation-grey {
-  background-color: rgba(61, 61, 61, 0.315);
+  background-color: rgba(0, 0, 0, 0.178);
 }
 
 .navigation-shadow {
@@ -68,7 +78,7 @@
 }
 
 .logo-white {
-  color: #ffffffcb;
+  color: #e9e9e9ee;
 }
 
 .logo-white:hover {
@@ -101,7 +111,7 @@
   line-height: 40px;
   text-align: center;
   font-size: 13px;
-  color: #ffffffee;
+  color: #e0e0e0ee;
 }
 
 .choice:hover {
@@ -152,7 +162,7 @@
 }
 
 .dropdown-dark {
-  background: rgba(49, 49, 49, 0.425);
+  background: rgba(0, 0, 0, 0.747);
 }
 
 .dropdown-menu {
