@@ -13,7 +13,7 @@
 .single-bar {
   flex-direction: row;
   margin-bottom: 10px;
-  height: 600px;
+  height: 550px;
   width: calc(50% - 5px);
 }
 
@@ -35,7 +35,7 @@
 
 .single-bar-back {
   margin-left: 20px;
-  margin-top: 45px;
+  margin-top: 40px;
   font-size: 70px;
   font-weight: 900;
   color: rgb(240, 240, 240);
@@ -45,7 +45,26 @@
   color: black;
 }
 
-@media screen and (min-width: 0px) and (max-width: 650px) {
+.single-bar-content {
+  text-align: center;
+  margin-top: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.single-bar-content-dark{
+  color: #424242;
+}
+
+.single-bar-content-light{
+  color: #fafafa;
+}
+
+.single-bar-content p:nth-of-type(1){
+  font-size: 28px; font-weight: 500
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
   .bar {
     margin: 0;
   }

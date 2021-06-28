@@ -5,7 +5,7 @@
 .home-ins-blue {
   background-image: linear-gradient(
     -45deg,
-    #7e1fc4,
+    #6525cc,
     rgb(29, 120, 199),
     rgb(48, 146, 231),
     rgb(37, 188, 223) 100%
@@ -47,7 +47,7 @@
 .ins-link {
   margin: auto;
   height: 30px;
-  width: 190px;
+  width: 200px;
   text-align: center;
 }
 
