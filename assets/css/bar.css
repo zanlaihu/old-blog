@@ -17,19 +17,11 @@
   width: calc(50% - 5px);
 }
 
-.first-single-bar {
+.up-single-bar {
   background-color: rgba(247, 247, 247, 0.808);
 }
 
-.second-single-bar {
-  background-color: rgba(247, 247, 247, 0.808);
-}
-
-.third-single-bar {
-  background-color: rgba(20, 20, 20, 0.952);
-}
-
-.fourth-single-bar {
+.down-single-bar {
   background-color: rgba(20, 20, 20, 0.952);
 }
 
