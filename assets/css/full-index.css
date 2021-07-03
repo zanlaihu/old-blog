@@ -1,7 +1,47 @@
-.notes-navigate{
+.notes-navigate {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: -webkit-wrap;
+  justify-content: center;
+  justify-content: -webkit-center;
   width: 100%;
-  height: 80px;
+  height: 90px;
   background-color: rgb(248, 248, 248);
+}
+
+.notes-choice {
+  flex-direction: row;
+  margin-top: 10px;
+  height: 90px;
+  width: 100px;
+  color: #838383;
+}
+
+.notes-choice:hover{
+  color: #a26aec;
+}
+
+.notes-choice div:nth-of-type(1) {
+  height: 50px;
+}
+
+.notes-choice div:nth-of-type(2) {
+  height: 15px;
+  text-align: center;
+  font-size: 9px;
+}
+
+.concept {
+  background: url("../img/gainian.svg") no-repeat center center;
+}
+
+.algorithm {
+  background: url("../img/algorithm.svg") no-repeat center center;
+}
+
+.journal{
+  background: url("../img/biji.svg") no-repeat center center;
 }
 
 .full-index {
