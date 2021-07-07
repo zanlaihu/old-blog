@@ -1,5 +1,5 @@
 $(function () {
-  const newText = "7月3日，在学习笔记页面添加了算法页面。";
+  const newText = "7月8日，学习了双指针法。";
   $(".news-text").append(newText);
   //点击菜单按钮事件
   let i = 1;
