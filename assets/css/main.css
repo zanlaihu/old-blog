@@ -8,6 +8,8 @@
 @import url("note-content.css");
 @import url("full-index.css");
 @import url("bar.css");
+@import url("projects.css");
+@import url("timeline.css");
 
 html,
 body,
@@ -212,7 +214,11 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  color: #484d55;
+  color: #be913c;
+}
+
+h2{
+  font-size: 16px;
 }
 
 h1 a,
