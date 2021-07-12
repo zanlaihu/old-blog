@@ -11,3 +11,8 @@
 .about-single-content {
   flex-direction: row;
 }
+
+.about-link {
+  color: tan;
+  text-decoration: underline;
+}
