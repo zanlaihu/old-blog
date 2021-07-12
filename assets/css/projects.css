@@ -52,8 +52,8 @@
 .single-project-time {
   flex-direction: row;
   margin: auto;
-  margin-right: 35px;
-  margin-left: 0;
+  margin-right: 30px;
+  margin-left: 5px;
   font-size: 11px;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .single-project-content-width{
-  width: 640px;
+  width: 680px;
 }
 
 .single-project-content-title {
@@ -82,7 +82,7 @@
 .timeline {
   flex-direction: row;
   margin: auto;
-  margin-left: 10px;
+  margin-left: 95px;
   margin-right: 12px;
   float: left;
 }
@@ -118,8 +118,11 @@
   );
 }
 
-@media screen and (min-width: 0px) and (max-width: 840px) {
+@media screen and (min-width: 0px) and (max-width: 950px) {
   .single-project-time {
     display: none;
+  }
+  .timeline {
+    margin-left: 10px;
   }
 }
