@@ -14,7 +14,7 @@
 .single-bar {
   flex-direction: row;
   margin-bottom: 10px;
-  height: 620px;
+  height: 580px;
   width: calc(50% - 5px);
 }
 
