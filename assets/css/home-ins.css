@@ -1,7 +1,9 @@
+/* 导航下第一内容 */
 .home-ins {
   margin-bottom: 10px;
 }
 
+/* 主页渐变蓝紫 */
 .home-ins-blue {
   background-image: linear-gradient(
     -45deg,
@@ -13,15 +15,22 @@
   /* background: linear-gradient(-200deg, #783bd3, rgb(37, 188, 223) 100%); */
 }
 
+/* 其他页面黑色 */
 .home-ins-other {
   background-color: rgb(39, 39, 39);
+}
+
+/* 上移覆盖导航 */
+.fill-top {
+  position: relative;
+  top: -40px;
 }
 
 .ins-content {
   margin: auto;
   padding-top: 180px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-bottom: 100px;
   width: 100%;
 }
@@ -37,8 +46,8 @@
 .ins-ins {
   margin-top: 20px;
   margin-bottom: 130px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   width: 100%;
   text-align: center;
   font-size: 15px;
