@@ -33,6 +33,16 @@
   );
 }
 
+.news-dreamy{
+  background-image: linear-gradient(
+    to right,
+    rgb(197, 124, 252, 1),
+    rgb(253, 201, 200, 1),
+    rgb(253, 244, 226, 1),
+    rgb(253, 222, 173, 1)
+  );
+}
+
 .news-text {
   margin: auto;
   line-height: 20px;
