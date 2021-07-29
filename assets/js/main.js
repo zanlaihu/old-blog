@@ -1,5 +1,5 @@
 $(function () {
-  const newText = "7月11日，增加了项目经历页面，还需填充更多内容。";
+  const newText = "7月30日，学习笔记页面添加’CSS选择器‘。";
   $(".news-text").append(newText);
   //点击菜单按钮事件
   let i = 1;
